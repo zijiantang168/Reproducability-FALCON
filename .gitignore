@@ -1,0 +1,5 @@
+.idea/
+*.pkl
+FALCON/src/train_test/data/
+*.pyc
+*.7z

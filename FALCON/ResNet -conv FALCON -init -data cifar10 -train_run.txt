@@ -1,0 +1,1873 @@
+C:\ProgramData\Anaconda3\envs\dl\python.exe D:/code/DLgitclone/falcon-submission-master/FALCON/src/train_test/main.py -m ResNet -conv FALCON -init -data cifar10 -train
+Namespace(alpha=1, batch_size=128, beta=0.0, bn=False, convolution='FALCON', datasets='cifar10', epochs=350, expansion=6.0, groups=1, init=True, is_train=True, learning_rate=0.01, lr_decay_rate=10, model='ResNet', not_save=False, optimizer='SGD', rank=1, relu=False, restore_path='', stconv_path='')
+trained_model/conv=StandardConv,model=ResNet,data=cifar10,rank=1,alpha=1,opt=SGD,lr=0.01.pkldoes not exist.
+loss = 0.000763, time = 9
+loss = 0.000771, time = 6
+loss = 0.000766, time = 6
+loss = 0.000770, time = 6
+loss = 0.000765, time = 6
+loss = 0.000788, time = 6
+loss = 0.000776, time = 6
+loss = 0.000385, time = 8
+loss = 0.000387, time = 7
+loss = 0.000388, time = 7
+loss = 0.000383, time = 8
+loss = 0.000386, time = 8
+loss = 0.000382, time = 8
+loss = 0.000386, time = 8
+loss = 0.000385, time = 11
+loss = 0.000193, time = 14
+loss = 0.000193, time = 15
+loss = 0.000194, time = 15
+loss = 0.000192, time = 15
+loss = 0.000194, time = 14
+loss = 0.000193, time = 15
+loss = 0.000192, time = 15
+loss = 0.000193, time = 15
+loss = 0.000193, time = 14
+loss = 0.000195, time = 15
+loss = 0.000192, time = 15
+loss = 0.000193, time = 24
+loss = 0.000096, time = 48
+loss = 0.000097, time = 49
+loss = 0.000097, time = 56
+loss = 0.000096, time = 53
+loss = 0.000097, time = 53
+  + Number of params: 2.63M
+  + Number of FLOPs: 46.33M
+Files already downloaded and verified
+Files already downloaded and verified
+****************** EPOCH = 0 ******************
+accuracy: 22.111742 %; loss: 1.771297; time: 1620833226s
+accuracy: 34.265625 %; loss: 1.757697; time: 5s
+accuracy: 39.203125 %; loss: 1.754900; time: 5s
+****************** EPOCH = 1 ******************
+accuracy: 44.042969 %; loss: 1.637795; time: 9s
+accuracy: 46.726562 %; loss: 1.502521; time: 5s
+accuracy: 47.257812 %; loss: 1.610209; time: 5s
+accuracy: 51.773438 %; loss: 1.215217; time: 5s
+****************** EPOCH = 2 ******************
+accuracy: 55.330882 %; loss: 1.376947; time: 8s
+accuracy: 55.796875 %; loss: 1.290835; time: 5s
+accuracy: 56.554688 %; loss: 1.076724; time: 5s
+accuracy: 58.234375 %; loss: 1.069208; time: 5s
+****************** EPOCH = 3 ******************
+accuracy: 60.847356 %; loss: 1.009921; time: 8s
+accuracy: 62.210938 %; loss: 0.904971; time: 5s
+accuracy: 63.359375 %; loss: 0.841160; time: 5s
+accuracy: 64.703125 %; loss: 1.137971; time: 5s
+****************** EPOCH = 4 ******************
+accuracy: 65.848214 %; loss: 0.916638; time: 8s
+accuracy: 66.210938 %; loss: 1.030918; time: 5s
+accuracy: 67.992188 %; loss: 0.709643; time: 5s
+accuracy: 68.585938 %; loss: 0.773548; time: 5s
+****************** EPOCH = 5 ******************
+accuracy: 70.063920 %; loss: 0.849457; time: 8s
+accuracy: 70.093750 %; loss: 0.703556; time: 5s
+accuracy: 70.164062 %; loss: 0.770111; time: 5s
+accuracy: 71.640625 %; loss: 0.949893; time: 5s
+****************** EPOCH = 6 ******************
+accuracy: 73.378538 %; loss: 0.715241; time: 9s
+accuracy: 73.132812 %; loss: 0.741391; time: 5s
+accuracy: 72.945312 %; loss: 0.685140; time: 5s
+accuracy: 74.078125 %; loss: 0.874850; time: 5s
+****************** EPOCH = 7 ******************
+accuracy: 75.567036 %; loss: 0.674639; time: 8s
+accuracy: 75.195312 %; loss: 0.629578; time: 5s
+accuracy: 76.367188 %; loss: 0.720072; time: 5s
+accuracy: 76.906250 %; loss: 0.679517; time: 5s
+****************** EPOCH = 8 ******************
+accuracy: 77.420775 %; loss: 0.717014; time: 8s
+accuracy: 77.117188 %; loss: 0.613252; time: 5s
+accuracy: 78.210938 %; loss: 0.794396; time: 5s
+accuracy: 77.648438 %; loss: 0.565784; time: 5s
+****************** EPOCH = 9 ******************
+accuracy: 78.964844 %; loss: 0.554818; time: 8s
+accuracy: 79.117188 %; loss: 0.648518; time: 5s
+accuracy: 79.078125 %; loss: 0.582986; time: 5s
+accuracy: 78.648438 %; loss: 0.671366; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 78.040000 %
+Validation time is: 3.450953s
+****************** EPOCH = 10 ******************
+accuracy: 79.942065 %; loss: 0.509163; time: 12s
+accuracy: 80.109375 %; loss: 0.748182; time: 5s
+accuracy: 80.781250 %; loss: 0.475369; time: 5s
+accuracy: 80.718750 %; loss: 0.537182; time: 5s
+****************** EPOCH = 11 ******************
+accuracy: 81.544962 %; loss: 0.629267; time: 8s
+accuracy: 80.921875 %; loss: 0.456095; time: 5s
+accuracy: 81.320312 %; loss: 0.419992; time: 5s
+****************** EPOCH = 12 ******************
+accuracy: 80.803571 %; loss: 0.410410; time: 8s
+accuracy: 82.703125 %; loss: 0.549933; time: 5s
+accuracy: 82.281250 %; loss: 0.593107; time: 5s
+accuracy: 82.039062 %; loss: 0.414573; time: 5s
+****************** EPOCH = 13 ******************
+accuracy: 82.226562 %; loss: 0.514129; time: 8s
+accuracy: 83.054688 %; loss: 0.451529; time: 5s
+accuracy: 83.320312 %; loss: 0.478908; time: 5s
+accuracy: 82.812500 %; loss: 0.423178; time: 5s
+****************** EPOCH = 14 ******************
+accuracy: 83.781250 %; loss: 0.434755; time: 8s
+accuracy: 83.679688 %; loss: 0.465829; time: 5s
+accuracy: 83.984375 %; loss: 0.426559; time: 5s
+accuracy: 84.070312 %; loss: 0.561588; time: 5s
+****************** EPOCH = 15 ******************
+accuracy: 84.880515 %; loss: 0.484494; time: 8s
+accuracy: 84.671875 %; loss: 0.487917; time: 5s
+accuracy: 84.460938 %; loss: 0.496973; time: 5s
+accuracy: 84.632812 %; loss: 0.524617; time: 5s
+****************** EPOCH = 16 ******************
+accuracy: 84.865552 %; loss: 0.528059; time: 8s
+accuracy: 86.046875 %; loss: 0.199146; time: 5s
+accuracy: 85.078125 %; loss: 0.483825; time: 5s
+accuracy: 85.359375 %; loss: 0.583483; time: 5s
+****************** EPOCH = 17 ******************
+accuracy: 85.847356 %; loss: 0.358321; time: 8s
+accuracy: 85.726562 %; loss: 0.545710; time: 5s
+accuracy: 86.171875 %; loss: 0.403605; time: 5s
+accuracy: 85.359375 %; loss: 0.502145; time: 5s
+****************** EPOCH = 18 ******************
+accuracy: 86.936475 %; loss: 0.321507; time: 8s
+accuracy: 86.460938 %; loss: 0.368193; time: 5s
+accuracy: 85.773438 %; loss: 0.380629; time: 5s
+accuracy: 86.507812 %; loss: 0.289818; time: 5s
+****************** EPOCH = 19 ******************
+accuracy: 87.154018 %; loss: 0.454320; time: 9s
+accuracy: 86.695312 %; loss: 0.364920; time: 5s
+accuracy: 86.906250 %; loss: 0.520221; time: 5s
+accuracy: 86.953125 %; loss: 0.372003; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 84.020000 %
+Validation time is: 3.630080s
+****************** EPOCH = 20 ******************
+accuracy: 88.093354 %; loss: 0.327430; time: 12s
+accuracy: 87.515625 %; loss: 0.292212; time: 5s
+accuracy: 87.156250 %; loss: 0.269691; time: 5s
+accuracy: 87.195312 %; loss: 0.367660; time: 5s
+****************** EPOCH = 21 ******************
+accuracy: 88.352273 %; loss: 0.323250; time: 8s
+accuracy: 87.859375 %; loss: 0.343917; time: 5s
+accuracy: 87.695312 %; loss: 0.325248; time: 5s
+accuracy: 87.210938 %; loss: 0.230458; time: 5s
+****************** EPOCH = 22 ******************
+accuracy: 88.796714 %; loss: 0.339755; time: 8s
+accuracy: 88.179688 %; loss: 0.310103; time: 5s
+accuracy: 88.375000 %; loss: 0.359749; time: 5s
+****************** EPOCH = 23 ******************
+accuracy: 88.020833 %; loss: 0.346537; time: 8s
+accuracy: 88.687500 %; loss: 0.379314; time: 5s
+accuracy: 88.757812 %; loss: 0.226220; time: 5s
+accuracy: 88.242188 %; loss: 0.441003; time: 5s
+****************** EPOCH = 24 ******************
+accuracy: 90.208333 %; loss: 0.294548; time: 8s
+accuracy: 89.414062 %; loss: 0.294961; time: 5s
+accuracy: 89.148438 %; loss: 0.370042; time: 5s
+accuracy: 89.054688 %; loss: 0.253669; time: 5s
+****************** EPOCH = 25 ******************
+accuracy: 89.518229 %; loss: 0.301988; time: 8s
+accuracy: 89.429688 %; loss: 0.289213; time: 5s
+accuracy: 89.734375 %; loss: 0.318677; time: 5s
+accuracy: 88.867188 %; loss: 0.297857; time: 5s
+****************** EPOCH = 26 ******************
+accuracy: 90.577652 %; loss: 0.194553; time: 8s
+accuracy: 90.070312 %; loss: 0.254275; time: 5s
+accuracy: 89.812500 %; loss: 0.387082; time: 5s
+accuracy: 89.515625 %; loss: 0.262661; time: 5s
+****************** EPOCH = 27 ******************
+accuracy: 90.252976 %; loss: 0.266872; time: 8s
+accuracy: 90.367188 %; loss: 0.206660; time: 5s
+accuracy: 89.554688 %; loss: 0.503339; time: 5s
+accuracy: 89.882812 %; loss: 0.365485; time: 5s
+****************** EPOCH = 28 ******************
+accuracy: 90.211397 %; loss: 0.281627; time: 9s
+accuracy: 90.398438 %; loss: 0.331301; time: 6s
+accuracy: 90.125000 %; loss: 0.390122; time: 5s
+accuracy: 89.664062 %; loss: 0.362795; time: 5s
+****************** EPOCH = 29 ******************
+accuracy: 90.846354 %; loss: 0.488282; time: 9s
+accuracy: 90.500000 %; loss: 0.320209; time: 5s
+accuracy: 90.375000 %; loss: 0.368643; time: 5s
+accuracy: 90.281250 %; loss: 0.264329; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 86.250000 %
+Validation time is: 3.657659s
+****************** EPOCH = 30 ******************
+accuracy: 91.417572 %; loss: 0.302875; time: 12s
+accuracy: 90.367188 %; loss: 0.197519; time: 5s
+accuracy: 90.593750 %; loss: 0.211839; time: 5s
+accuracy: 90.617188 %; loss: 0.481299; time: 5s
+****************** EPOCH = 31 ******************
+accuracy: 91.466346 %; loss: 0.257167; time: 8s
+accuracy: 90.921875 %; loss: 0.262407; time: 5s
+accuracy: 91.046875 %; loss: 0.203305; time: 5s
+accuracy: 90.390625 %; loss: 0.252199; time: 5s
+****************** EPOCH = 32 ******************
+accuracy: 91.549928 %; loss: 0.201689; time: 8s
+accuracy: 91.093750 %; loss: 0.219394; time: 5s
+accuracy: 91.507812 %; loss: 0.194100; time: 5s
+accuracy: 90.617188 %; loss: 0.286072; time: 5s
+****************** EPOCH = 33 ******************
+accuracy: 91.617839 %; loss: 0.230992; time: 8s
+accuracy: 91.593750 %; loss: 0.207291; time: 5s
+accuracy: 91.125000 %; loss: 0.247985; time: 5s
+****************** EPOCH = 34 ******************
+accuracy: 93.906250 %; loss: 0.162545; time: 8s
+accuracy: 91.992188 %; loss: 0.239925; time: 5s
+accuracy: 91.898438 %; loss: 0.172072; time: 5s
+accuracy: 91.265625 %; loss: 0.326245; time: 5s
+****************** EPOCH = 35 ******************
+accuracy: 91.294643 %; loss: 0.189750; time: 8s
+accuracy: 92.062500 %; loss: 0.189299; time: 5s
+accuracy: 91.773438 %; loss: 0.251802; time: 5s
+accuracy: 91.460938 %; loss: 0.182076; time: 5s
+****************** EPOCH = 36 ******************
+accuracy: 91.847826 %; loss: 0.205632; time: 8s
+accuracy: 92.460938 %; loss: 0.225957; time: 5s
+accuracy: 92.171875 %; loss: 0.220682; time: 5s
+accuracy: 91.992188 %; loss: 0.203167; time: 5s
+****************** EPOCH = 37 ******************
+accuracy: 92.236328 %; loss: 0.290873; time: 8s
+accuracy: 92.085938 %; loss: 0.227494; time: 5s
+accuracy: 92.140625 %; loss: 0.226314; time: 5s
+accuracy: 92.218750 %; loss: 0.252108; time: 5s
+****************** EPOCH = 38 ******************
+accuracy: 92.530488 %; loss: 0.301666; time: 8s
+accuracy: 92.695312 %; loss: 0.152905; time: 5s
+accuracy: 92.195312 %; loss: 0.096110; time: 5s
+accuracy: 92.242188 %; loss: 0.187304; time: 5s
+****************** EPOCH = 39 ******************
+accuracy: 92.968750 %; loss: 0.171801; time: 8s
+accuracy: 92.765625 %; loss: 0.166782; time: 5s
+accuracy: 92.945312 %; loss: 0.179346; time: 5s
+accuracy: 91.890625 %; loss: 0.286776; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 86.810000 %
+Validation time is: 3.680673s
+****************** EPOCH = 40 ******************
+accuracy: 93.591102 %; loss: 0.157811; time: 12s
+accuracy: 92.914062 %; loss: 0.186921; time: 5s
+accuracy: 92.664062 %; loss: 0.171844; time: 5s
+accuracy: 92.859375 %; loss: 0.353174; time: 5s
+****************** EPOCH = 41 ******************
+accuracy: 93.646599 %; loss: 0.208491; time: 8s
+accuracy: 93.289062 %; loss: 0.129298; time: 5s
+accuracy: 92.781250 %; loss: 0.185657; time: 5s
+accuracy: 92.992188 %; loss: 0.247586; time: 5s
+****************** EPOCH = 42 ******************
+accuracy: 93.658685 %; loss: 0.150335; time: 8s
+accuracy: 92.953125 %; loss: 0.121370; time: 5s
+accuracy: 92.820312 %; loss: 0.152503; time: 5s
+accuracy: 93.007812 %; loss: 0.188345; time: 5s
+****************** EPOCH = 43 ******************
+accuracy: 94.004360 %; loss: 0.117098; time: 8s
+accuracy: 93.296875 %; loss: 0.194513; time: 5s
+accuracy: 93.515625 %; loss: 0.216256; time: 5s
+accuracy: 93.421875 %; loss: 0.272366; time: 5s
+****************** EPOCH = 44 ******************
+accuracy: 93.264803 %; loss: 0.251671; time: 8s
+accuracy: 93.703125 %; loss: 0.410022; time: 5s
+accuracy: 93.257812 %; loss: 0.169447; time: 5s
+****************** EPOCH = 45 ******************
+accuracy: 95.117188 %; loss: 0.117880; time: 8s
+accuracy: 93.500000 %; loss: 0.162849; time: 5s
+accuracy: 93.742188 %; loss: 0.134041; time: 5s
+accuracy: 93.515625 %; loss: 0.145668; time: 5s
+****************** EPOCH = 46 ******************
+accuracy: 94.050481 %; loss: 0.183862; time: 8s
+accuracy: 94.023438 %; loss: 0.212028; time: 5s
+accuracy: 93.343750 %; loss: 0.188977; time: 5s
+accuracy: 93.890625 %; loss: 0.187706; time: 5s
+****************** EPOCH = 47 ******************
+accuracy: 94.176136 %; loss: 0.151860; time: 8s
+accuracy: 93.609375 %; loss: 0.185044; time: 5s
+accuracy: 93.796875 %; loss: 0.082589; time: 5s
+accuracy: 93.437500 %; loss: 0.155240; time: 5s
+****************** EPOCH = 48 ******************
+accuracy: 94.556452 %; loss: 0.133891; time: 8s
+accuracy: 94.382812 %; loss: 0.193297; time: 5s
+accuracy: 93.960938 %; loss: 0.149290; time: 5s
+accuracy: 94.070312 %; loss: 0.122101; time: 5s
+****************** EPOCH = 49 ******************
+accuracy: 94.453125 %; loss: 0.121043; time: 8s
+accuracy: 94.632812 %; loss: 0.174655; time: 5s
+accuracy: 94.289062 %; loss: 0.266931; time: 5s
+accuracy: 93.679688 %; loss: 0.177491; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 86.940000 %
+Validation time is: 3.616529s
+****************** EPOCH = 50 ******************
+accuracy: 94.563138 %; loss: 0.172261; time: 12s
+accuracy: 94.203125 %; loss: 0.154997; time: 5s
+accuracy: 94.070312 %; loss: 0.247721; time: 5s
+accuracy: 94.312500 %; loss: 0.220990; time: 5s
+****************** EPOCH = 51 ******************
+accuracy: 95.312500 %; loss: 0.149497; time: 8s
+accuracy: 94.632812 %; loss: 0.204867; time: 5s
+accuracy: 94.171875 %; loss: 0.115375; time: 5s
+accuracy: 94.414062 %; loss: 0.159805; time: 5s
+****************** EPOCH = 52 ******************
+accuracy: 94.496269 %; loss: 0.128346; time: 8s
+accuracy: 94.281250 %; loss: 0.177737; time: 5s
+accuracy: 94.460938 %; loss: 0.086369; time: 5s
+accuracy: 94.562500 %; loss: 0.097071; time: 5s
+****************** EPOCH = 53 ******************
+accuracy: 95.045230 %; loss: 0.149691; time: 8s
+accuracy: 94.750000 %; loss: 0.136250; time: 5s
+accuracy: 94.742188 %; loss: 0.081466; time: 5s
+accuracy: 94.468750 %; loss: 0.179432; time: 5s
+****************** EPOCH = 54 ******************
+accuracy: 94.669118 %; loss: 0.092262; time: 8s
+accuracy: 94.953125 %; loss: 0.230288; time: 5s
+accuracy: 94.796875 %; loss: 0.106516; time: 5s
+accuracy: 94.070312 %; loss: 0.138681; time: 5s
+****************** EPOCH = 55 ******************
+accuracy: 95.121343 %; loss: 0.194611; time: 8s
+accuracy: 95.148438 %; loss: 0.158849; time: 5s
+accuracy: 95.140625 %; loss: 0.222745; time: 5s
+****************** EPOCH = 56 ******************
+accuracy: 93.229167 %; loss: 0.166946; time: 8s
+accuracy: 95.375000 %; loss: 0.099289; time: 5s
+accuracy: 95.140625 %; loss: 0.200736; time: 5s
+accuracy: 94.687500 %; loss: 0.128013; time: 5s
+****************** EPOCH = 57 ******************
+accuracy: 95.768229 %; loss: 0.114578; time: 8s
+accuracy: 94.789062 %; loss: 0.100905; time: 5s
+accuracy: 94.859375 %; loss: 0.138039; time: 5s
+accuracy: 95.085938 %; loss: 0.117953; time: 5s
+****************** EPOCH = 58 ******************
+accuracy: 94.940476 %; loss: 0.140142; time: 8s
+accuracy: 95.179688 %; loss: 0.114548; time: 5s
+accuracy: 95.187500 %; loss: 0.169443; time: 5s
+accuracy: 94.859375 %; loss: 0.129727; time: 5s
+****************** EPOCH = 59 ******************
+accuracy: 94.947917 %; loss: 0.136848; time: 8s
+accuracy: 95.875000 %; loss: 0.112606; time: 5s
+accuracy: 95.140625 %; loss: 0.171625; time: 5s
+accuracy: 95.234375 %; loss: 0.134907; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 88.620000 %
+Validation time is: 3.552750s
+****************** EPOCH = 60 ******************
+accuracy: 95.733173 %; loss: 0.114951; time: 12s
+accuracy: 95.328125 %; loss: 0.032876; time: 5s
+accuracy: 95.242188 %; loss: 0.149753; time: 5s
+accuracy: 94.703125 %; loss: 0.187656; time: 5s
+****************** EPOCH = 61 ******************
+accuracy: 95.491536 %; loss: 0.120375; time: 8s
+accuracy: 96.117188 %; loss: 0.064739; time: 5s
+accuracy: 95.601562 %; loss: 0.170868; time: 5s
+accuracy: 95.359375 %; loss: 0.105555; time: 5s
+****************** EPOCH = 62 ******************
+accuracy: 95.751096 %; loss: 0.118187; time: 8s
+accuracy: 95.742188 %; loss: 0.108266; time: 5s
+accuracy: 95.562500 %; loss: 0.105016; time: 5s
+accuracy: 95.367188 %; loss: 0.151306; time: 5s
+****************** EPOCH = 63 ******************
+accuracy: 96.046402 %; loss: 0.111095; time: 8s
+accuracy: 95.796875 %; loss: 0.083242; time: 5s
+accuracy: 95.625000 %; loss: 0.093319; time: 5s
+accuracy: 95.359375 %; loss: 0.076288; time: 5s
+****************** EPOCH = 64 ******************
+accuracy: 95.822917 %; loss: 0.145421; time: 8s
+accuracy: 95.687500 %; loss: 0.116136; time: 5s
+accuracy: 95.851562 %; loss: 0.130284; time: 5s
+accuracy: 95.140625 %; loss: 0.090235; time: 5s
+****************** EPOCH = 65 ******************
+accuracy: 95.805432 %; loss: 0.125108; time: 8s
+accuracy: 95.851562 %; loss: 0.155135; time: 5s
+accuracy: 96.046875 %; loss: 0.114463; time: 5s
+accuracy: 95.351562 %; loss: 0.146602; time: 5s
+****************** EPOCH = 66 ******************
+accuracy: 96.076949 %; loss: 0.168268; time: 8s
+accuracy: 96.101562 %; loss: 0.081697; time: 5s
+accuracy: 96.039062 %; loss: 0.088654; time: 5s
+****************** EPOCH = 67 ******************
+accuracy: 95.703125 %; loss: 0.106083; time: 8s
+accuracy: 96.468750 %; loss: 0.089893; time: 5s
+accuracy: 95.867188 %; loss: 0.165062; time: 5s
+accuracy: 95.929688 %; loss: 0.094162; time: 5s
+****************** EPOCH = 68 ******************
+accuracy: 96.590909 %; loss: 0.244233; time: 8s
+accuracy: 96.195312 %; loss: 0.059734; time: 5s
+accuracy: 95.921875 %; loss: 0.104081; time: 5s
+accuracy: 95.828125 %; loss: 0.076196; time: 5s
+****************** EPOCH = 69 ******************
+accuracy: 96.132812 %; loss: 0.065345; time: 8s
+accuracy: 96.187500 %; loss: 0.105075; time: 5s
+accuracy: 96.187500 %; loss: 0.149522; time: 5s
+accuracy: 96.250000 %; loss: 0.149347; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 87.900000 %
+Validation time is: 3.358746s
+****************** EPOCH = 70 ******************
+accuracy: 96.066810 %; loss: 0.097593; time: 11s
+accuracy: 96.453125 %; loss: 0.136497; time: 5s
+accuracy: 96.453125 %; loss: 0.175320; time: 5s
+accuracy: 95.460938 %; loss: 0.137738; time: 5s
+****************** EPOCH = 71 ******************
+accuracy: 96.710526 %; loss: 0.158916; time: 8s
+accuracy: 96.328125 %; loss: 0.108803; time: 5s
+accuracy: 96.218750 %; loss: 0.151242; time: 5s
+accuracy: 95.859375 %; loss: 0.073193; time: 5s
+****************** EPOCH = 72 ******************
+accuracy: 96.542553 %; loss: 0.112741; time: 8s
+accuracy: 96.578125 %; loss: 0.116214; time: 5s
+accuracy: 96.492188 %; loss: 0.070409; time: 5s
+accuracy: 95.992188 %; loss: 0.100265; time: 5s
+****************** EPOCH = 73 ******************
+accuracy: 96.372768 %; loss: 0.058418; time: 8s
+accuracy: 96.242188 %; loss: 0.166033; time: 5s
+accuracy: 96.242188 %; loss: 0.137748; time: 5s
+accuracy: 96.203125 %; loss: 0.086092; time: 5s
+****************** EPOCH = 74 ******************
+accuracy: 96.382212 %; loss: 0.044721; time: 8s
+accuracy: 96.171875 %; loss: 0.188043; time: 5s
+accuracy: 96.273438 %; loss: 0.129967; time: 5s
+accuracy: 95.953125 %; loss: 0.106071; time: 5s
+****************** EPOCH = 75 ******************
+accuracy: 96.547720 %; loss: 0.111585; time: 8s
+accuracy: 96.078125 %; loss: 0.160377; time: 5s
+accuracy: 96.156250 %; loss: 0.145999; time: 5s
+accuracy: 96.234375 %; loss: 0.143973; time: 5s
+****************** EPOCH = 76 ******************
+accuracy: 96.442018 %; loss: 0.127510; time: 8s
+accuracy: 96.609375 %; loss: 0.071926; time: 5s
+accuracy: 96.875000 %; loss: 0.087114; time: 5s
+accuracy: 96.234375 %; loss: 0.085824; time: 5s
+****************** EPOCH = 77 ******************
+accuracy: 97.129755 %; loss: 0.035814; time: 8s
+accuracy: 96.437500 %; loss: 0.053822; time: 5s
+accuracy: 96.289062 %; loss: 0.130284; time: 5s
+****************** EPOCH = 78 ******************
+accuracy: 96.093750 %; loss: 0.097308; time: 8s
+accuracy: 96.976562 %; loss: 0.033141; time: 5s
+accuracy: 96.570312 %; loss: 0.073460; time: 5s
+accuracy: 96.390625 %; loss: 0.046768; time: 5s
+****************** EPOCH = 79 ******************
+accuracy: 96.875000 %; loss: 0.128533; time: 9s
+accuracy: 96.890625 %; loss: 0.118829; time: 5s
+accuracy: 96.562500 %; loss: 0.104746; time: 5s
+accuracy: 96.765625 %; loss: 0.054496; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 88.310000 %
+Validation time is: 3.644351s
+****************** EPOCH = 80 ******************
+accuracy: 96.833882 %; loss: 0.048557; time: 12s
+accuracy: 96.890625 %; loss: 0.095323; time: 5s
+accuracy: 96.960938 %; loss: 0.120999; time: 5s
+accuracy: 96.640625 %; loss: 0.121671; time: 5s
+****************** EPOCH = 81 ******************
+accuracy: 96.875000 %; loss: 0.111988; time: 8s
+accuracy: 96.609375 %; loss: 0.120638; time: 5s
+accuracy: 96.687500 %; loss: 0.053999; time: 5s
+accuracy: 96.781250 %; loss: 0.087449; time: 5s
+****************** EPOCH = 82 ******************
+accuracy: 96.959459 %; loss: 0.076214; time: 8s
+accuracy: 96.953125 %; loss: 0.090336; time: 5s
+accuracy: 96.523438 %; loss: 0.107693; time: 5s
+accuracy: 96.859375 %; loss: 0.060396; time: 5s
+****************** EPOCH = 83 ******************
+accuracy: 97.282609 %; loss: 0.154597; time: 8s
+accuracy: 96.835938 %; loss: 0.148739; time: 5s
+accuracy: 96.570312 %; loss: 0.033167; time: 5s
+accuracy: 96.554688 %; loss: 0.120561; time: 5s
+****************** EPOCH = 84 ******************
+accuracy: 97.556818 %; loss: 0.060865; time: 8s
+accuracy: 97.195312 %; loss: 0.064834; time: 5s
+accuracy: 96.742188 %; loss: 0.131226; time: 5s
+accuracy: 96.796875 %; loss: 0.092606; time: 5s
+****************** EPOCH = 85 ******************
+accuracy: 97.033691 %; loss: 0.106283; time: 8s
+accuracy: 96.804688 %; loss: 0.080385; time: 5s
+accuracy: 96.789062 %; loss: 0.112249; time: 5s
+accuracy: 96.976562 %; loss: 0.042551; time: 5s
+****************** EPOCH = 86 ******************
+accuracy: 97.495719 %; loss: 0.068452; time: 8s
+accuracy: 97.101562 %; loss: 0.043855; time: 5s
+accuracy: 96.875000 %; loss: 0.057430; time: 5s
+accuracy: 96.921875 %; loss: 0.143898; time: 5s
+****************** EPOCH = 87 ******************
+accuracy: 97.313262 %; loss: 0.067789; time: 8s
+accuracy: 97.093750 %; loss: 0.086912; time: 5s
+accuracy: 96.992188 %; loss: 0.144936; time: 5s
+accuracy: 96.945312 %; loss: 0.116432; time: 5s
+****************** EPOCH = 88 ******************
+accuracy: 97.141140 %; loss: 0.074686; time: 8s
+accuracy: 96.898438 %; loss: 0.073698; time: 5s
+accuracy: 97.117188 %; loss: 0.142866; time: 5s
+accuracy: 97.043601 %; loss: 0.126487; time: 5s
+****************** EPOCH = 89 ******************
+accuracy: 97.039062 %; loss: 0.100345; time: 8s
+accuracy: 97.148438 %; loss: 0.082910; time: 5s
+accuracy: 96.835938 %; loss: 0.031010; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 88.700000 %
+Validation time is: 3.549409s
+****************** EPOCH = 90 ******************
+accuracy: 96.788194 %; loss: 0.065661; time: 12s
+accuracy: 97.109375 %; loss: 0.067035; time: 5s
+accuracy: 97.203125 %; loss: 0.026638; time: 5s
+accuracy: 96.890625 %; loss: 0.083583; time: 5s
+****************** EPOCH = 91 ******************
+accuracy: 97.482639 %; loss: 0.063860; time: 8s
+accuracy: 97.335938 %; loss: 0.100393; time: 5s
+accuracy: 97.070312 %; loss: 0.055664; time: 5s
+accuracy: 96.945312 %; loss: 0.093223; time: 5s
+****************** EPOCH = 92 ******************
+accuracy: 97.945602 %; loss: 0.053536; time: 8s
+accuracy: 97.656250 %; loss: 0.132015; time: 5s
+accuracy: 97.476562 %; loss: 0.019483; time: 5s
+accuracy: 97.070312 %; loss: 0.084843; time: 5s
+****************** EPOCH = 93 ******************
+accuracy: 97.178819 %; loss: 0.039927; time: 8s
+accuracy: 97.054688 %; loss: 0.074208; time: 5s
+accuracy: 97.140625 %; loss: 0.082415; time: 5s
+accuracy: 97.023438 %; loss: 0.090324; time: 5s
+****************** EPOCH = 94 ******************
+accuracy: 97.187500 %; loss: 0.058913; time: 8s
+accuracy: 97.375000 %; loss: 0.048205; time: 5s
+accuracy: 97.109375 %; loss: 0.117210; time: 5s
+accuracy: 97.117188 %; loss: 0.041059; time: 5s
+****************** EPOCH = 95 ******************
+accuracy: 97.193287 %; loss: 0.105848; time: 8s
+accuracy: 97.265625 %; loss: 0.035155; time: 5s
+accuracy: 97.492188 %; loss: 0.043709; time: 5s
+accuracy: 97.132812 %; loss: 0.097966; time: 5s
+****************** EPOCH = 96 ******************
+accuracy: 97.135417 %; loss: 0.044726; time: 8s
+accuracy: 97.460938 %; loss: 0.043798; time: 5s
+accuracy: 97.234375 %; loss: 0.093077; time: 5s
+accuracy: 97.343750 %; loss: 0.083336; time: 5s
+****************** EPOCH = 97 ******************
+accuracy: 97.222222 %; loss: 0.082885; time: 8s
+accuracy: 97.773438 %; loss: 0.039827; time: 5s
+accuracy: 97.359375 %; loss: 0.030716; time: 5s
+accuracy: 97.164062 %; loss: 0.133468; time: 5s
+****************** EPOCH = 98 ******************
+accuracy: 97.627315 %; loss: 0.019606; time: 8s
+accuracy: 96.921875 %; loss: 0.161191; time: 5s
+accuracy: 97.171875 %; loss: 0.044986; time: 5s
+accuracy: 97.398438 %; loss: 0.059338; time: 5s
+****************** EPOCH = 99 ******************
+accuracy: 97.656250 %; loss: 0.116452; time: 8s
+accuracy: 97.789062 %; loss: 0.030700; time: 5s
+accuracy: 97.132812 %; loss: 0.105356; time: 5s
+accuracy: 97.437500 %; loss: 0.080538; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 89.210000 %
+Validation time is: 3.378297s
+****************** EPOCH = 100 ******************
+accuracy: 97.624684 %; loss: 0.057608; time: 11s
+accuracy: 97.695312 %; loss: 0.074528; time: 5s
+accuracy: 97.343750 %; loss: 0.043614; time: 5s
+****************** EPOCH = 101 ******************
+accuracy: 97.656250 %; loss: 0.077696; time: 9s
+accuracy: 97.617188 %; loss: 0.053913; time: 5s
+accuracy: 97.257812 %; loss: 0.040979; time: 5s
+accuracy: 97.406250 %; loss: 0.082251; time: 5s
+****************** EPOCH = 102 ******************
+accuracy: 97.518382 %; loss: 0.070283; time: 8s
+accuracy: 97.414062 %; loss: 0.059780; time: 5s
+accuracy: 97.648438 %; loss: 0.062489; time: 5s
+accuracy: 97.281250 %; loss: 0.065925; time: 5s
+****************** EPOCH = 103 ******************
+accuracy: 97.626202 %; loss: 0.040991; time: 9s
+accuracy: 97.781250 %; loss: 0.044973; time: 5s
+accuracy: 97.421875 %; loss: 0.089567; time: 5s
+accuracy: 97.273438 %; loss: 0.045781; time: 5s
+****************** EPOCH = 104 ******************
+accuracy: 97.611607 %; loss: 0.032256; time: 9s
+accuracy: 97.757812 %; loss: 0.035024; time: 5s
+accuracy: 97.632812 %; loss: 0.063289; time: 5s
+accuracy: 97.640625 %; loss: 0.032151; time: 5s
+****************** EPOCH = 105 ******************
+accuracy: 97.887074 %; loss: 0.127659; time: 8s
+accuracy: 97.546875 %; loss: 0.034806; time: 5s
+accuracy: 97.546875 %; loss: 0.087882; time: 5s
+accuracy: 97.531250 %; loss: 0.053763; time: 5s
+****************** EPOCH = 106 ******************
+accuracy: 97.685731 %; loss: 0.060074; time: 8s
+accuracy: 97.554688 %; loss: 0.062699; time: 5s
+accuracy: 97.648438 %; loss: 0.039179; time: 5s
+accuracy: 97.117188 %; loss: 0.057349; time: 5s
+****************** EPOCH = 107 ******************
+accuracy: 97.845262 %; loss: 0.020338; time: 8s
+accuracy: 97.734375 %; loss: 0.072670; time: 5s
+accuracy: 97.445312 %; loss: 0.134890; time: 5s
+accuracy: 97.601562 %; loss: 0.052973; time: 5s
+****************** EPOCH = 108 ******************
+accuracy: 97.623239 %; loss: 0.033089; time: 8s
+accuracy: 97.671875 %; loss: 0.105159; time: 5s
+accuracy: 97.710938 %; loss: 0.063416; time: 5s
+accuracy: 97.773438 %; loss: 0.052298; time: 5s
+****************** EPOCH = 109 ******************
+accuracy: 97.822266 %; loss: 0.028491; time: 8s
+accuracy: 97.960938 %; loss: 0.043324; time: 5s
+accuracy: 97.757812 %; loss: 0.020774; time: 5s
+accuracy: 97.671875 %; loss: 0.126493; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 88.840000 %
+Validation time is: 3.421370s
+****************** EPOCH = 110 ******************
+accuracy: 97.629916 %; loss: 0.043378; time: 12s
+accuracy: 97.703125 %; loss: 0.026658; time: 5s
+accuracy: 97.539062 %; loss: 0.057727; time: 5s
+accuracy: 97.585938 %; loss: 0.050628; time: 5s
+****************** EPOCH = 111 ******************
+accuracy: 97.943240 %; loss: 0.032610; time: 8s
+accuracy: 97.820312 %; loss: 0.034962; time: 5s
+accuracy: 97.531250 %; loss: 0.054614; time: 5s
+****************** EPOCH = 112 ******************
+accuracy: 97.991071 %; loss: 0.071984; time: 8s
+accuracy: 97.664062 %; loss: 0.047800; time: 5s
+accuracy: 97.382812 %; loss: 0.014469; time: 5s
+accuracy: 97.476562 %; loss: 0.160307; time: 5s
+****************** EPOCH = 113 ******************
+accuracy: 97.460938 %; loss: 0.101860; time: 8s
+accuracy: 97.484375 %; loss: 0.050148; time: 5s
+accuracy: 97.929688 %; loss: 0.010674; time: 5s
+accuracy: 97.890625 %; loss: 0.062640; time: 5s
+****************** EPOCH = 114 ******************
+accuracy: 98.125000 %; loss: 0.049536; time: 8s
+accuracy: 97.687500 %; loss: 0.093289; time: 5s
+accuracy: 97.976562 %; loss: 0.058929; time: 5s
+accuracy: 97.554688 %; loss: 0.085796; time: 5s
+****************** EPOCH = 115 ******************
+accuracy: 97.977941 %; loss: 0.063770; time: 8s
+accuracy: 97.789062 %; loss: 0.023132; time: 5s
+accuracy: 97.992188 %; loss: 0.044405; time: 5s
+accuracy: 97.515625 %; loss: 0.044476; time: 5s
+****************** EPOCH = 116 ******************
+accuracy: 97.783430 %; loss: 0.038485; time: 8s
+accuracy: 98.007812 %; loss: 0.024791; time: 5s
+accuracy: 97.828125 %; loss: 0.082048; time: 5s
+accuracy: 97.843750 %; loss: 0.056711; time: 5s
+****************** EPOCH = 117 ******************
+accuracy: 97.866587 %; loss: 0.058209; time: 8s
+accuracy: 97.921875 %; loss: 0.036767; time: 5s
+accuracy: 97.750000 %; loss: 0.071494; time: 5s
+accuracy: 97.734375 %; loss: 0.073214; time: 5s
+****************** EPOCH = 118 ******************
+accuracy: 97.476947 %; loss: 0.059365; time: 9s
+accuracy: 97.968750 %; loss: 0.028768; time: 6s
+accuracy: 97.859375 %; loss: 0.034807; time: 5s
+accuracy: 97.710938 %; loss: 0.049020; time: 5s
+****************** EPOCH = 119 ******************
+accuracy: 98.046875 %; loss: 0.060097; time: 9s
+accuracy: 98.117188 %; loss: 0.040832; time: 6s
+accuracy: 97.617188 %; loss: 0.074947; time: 5s
+accuracy: 97.765625 %; loss: 0.070402; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 89.370000 %
+Validation time is: 3.570079s
+****************** EPOCH = 120 ******************
+accuracy: 97.923259 %; loss: 0.023799; time: 12s
+accuracy: 97.835938 %; loss: 0.133533; time: 5s
+accuracy: 97.757812 %; loss: 0.036889; time: 5s
+accuracy: 97.656250 %; loss: 0.085709; time: 5s
+****************** EPOCH = 121 ******************
+accuracy: 97.727273 %; loss: 0.039860; time: 8s
+accuracy: 97.875000 %; loss: 0.013538; time: 5s
+accuracy: 97.804688 %; loss: 0.078225; time: 5s
+accuracy: 97.625000 %; loss: 0.053980; time: 5s
+****************** EPOCH = 122 ******************
+accuracy: 97.986469 %; loss: 0.071620; time: 8s
+accuracy: 97.960938 %; loss: 0.049707; time: 5s
+accuracy: 97.882812 %; loss: 0.032198; time: 6s
+****************** EPOCH = 123 ******************
+accuracy: 97.656250 %; loss: 0.075853; time: 9s
+accuracy: 98.125000 %; loss: 0.060942; time: 5s
+accuracy: 97.796875 %; loss: 0.076311; time: 5s
+accuracy: 97.742188 %; loss: 0.044329; time: 5s
+****************** EPOCH = 124 ******************
+accuracy: 97.916667 %; loss: 0.036391; time: 9s
+accuracy: 98.195312 %; loss: 0.035998; time: 5s
+accuracy: 97.804688 %; loss: 0.083065; time: 6s
+accuracy: 97.882812 %; loss: 0.133087; time: 5s
+****************** EPOCH = 125 ******************
+accuracy: 98.535156 %; loss: 0.019364; time: 8s
+accuracy: 98.125000 %; loss: 0.070346; time: 5s
+accuracy: 97.921875 %; loss: 0.031175; time: 5s
+accuracy: 97.562500 %; loss: 0.031995; time: 5s
+****************** EPOCH = 126 ******************
+accuracy: 97.916667 %; loss: 0.059692; time: 9s
+accuracy: 98.109375 %; loss: 0.061511; time: 5s
+accuracy: 97.781250 %; loss: 0.062511; time: 5s
+accuracy: 97.750000 %; loss: 0.036174; time: 5s
+****************** EPOCH = 127 ******************
+accuracy: 98.530506 %; loss: 0.063572; time: 9s
+accuracy: 97.882812 %; loss: 0.044532; time: 5s
+accuracy: 98.054688 %; loss: 0.044584; time: 5s
+accuracy: 98.289062 %; loss: 0.053434; time: 5s
+****************** EPOCH = 128 ******************
+accuracy: 97.977941 %; loss: 0.118272; time: 8s
+accuracy: 98.031250 %; loss: 0.028796; time: 5s
+accuracy: 98.273438 %; loss: 0.075095; time: 5s
+accuracy: 98.062500 %; loss: 0.017823; time: 5s
+****************** EPOCH = 129 ******************
+accuracy: 98.111979 %; loss: 0.040940; time: 9s
+accuracy: 98.007812 %; loss: 0.065673; time: 5s
+accuracy: 97.921875 %; loss: 0.064486; time: 5s
+accuracy: 98.023438 %; loss: 0.030759; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 88.710000 %
+Validation time is: 3.780634s
+****************** EPOCH = 130 ******************
+accuracy: 97.803442 %; loss: 0.092894; time: 13s
+accuracy: 98.054688 %; loss: 0.038865; time: 5s
+accuracy: 97.773438 %; loss: 0.031200; time: 5s
+accuracy: 98.296875 %; loss: 0.072229; time: 5s
+****************** EPOCH = 131 ******************
+accuracy: 98.106971 %; loss: 0.085233; time: 8s
+accuracy: 97.960938 %; loss: 0.082252; time: 5s
+accuracy: 98.218750 %; loss: 0.010689; time: 5s
+accuracy: 97.812500 %; loss: 0.033853; time: 5s
+****************** EPOCH = 132 ******************
+accuracy: 98.320761 %; loss: 0.012390; time: 9s
+accuracy: 98.328125 %; loss: 0.068684; time: 5s
+accuracy: 97.710938 %; loss: 0.054935; time: 5s
+accuracy: 97.601562 %; loss: 0.081656; time: 6s
+****************** EPOCH = 133 ******************
+accuracy: 98.103841 %; loss: 0.066226; time: 9s
+accuracy: 98.093750 %; loss: 0.016233; time: 6s
+accuracy: 98.109375 %; loss: 0.056608; time: 5s
+****************** EPOCH = 134 ******************
+accuracy: 97.343750 %; loss: 0.039297; time: 9s
+accuracy: 98.171875 %; loss: 0.032763; time: 5s
+accuracy: 97.781250 %; loss: 0.060284; time: 6s
+accuracy: 98.078125 %; loss: 0.039686; time: 6s
+****************** EPOCH = 135 ******************
+accuracy: 98.772321 %; loss: 0.020435; time: 9s
+accuracy: 98.453125 %; loss: 0.063080; time: 5s
+accuracy: 98.179688 %; loss: 0.024290; time: 5s
+accuracy: 97.992188 %; loss: 0.044774; time: 5s
+****************** EPOCH = 136 ******************
+accuracy: 98.165761 %; loss: 0.049561; time: 9s
+accuracy: 98.226562 %; loss: 0.033595; time: 6s
+accuracy: 98.179688 %; loss: 0.060019; time: 6s
+accuracy: 97.968750 %; loss: 0.066771; time: 5s
+****************** EPOCH = 137 ******************
+accuracy: 97.973633 %; loss: 0.030695; time: 9s
+accuracy: 98.062500 %; loss: 0.042786; time: 6s
+accuracy: 98.484375 %; loss: 0.026534; time: 6s
+accuracy: 98.265625 %; loss: 0.039946; time: 6s
+****************** EPOCH = 138 ******************
+accuracy: 98.532774 %; loss: 0.108298; time: 9s
+accuracy: 98.398438 %; loss: 0.039197; time: 5s
+accuracy: 97.992188 %; loss: 0.083815; time: 5s
+accuracy: 98.070312 %; loss: 0.066822; time: 6s
+****************** EPOCH = 139 ******************
+accuracy: 98.187500 %; loss: 0.025201; time: 9s
+accuracy: 98.382812 %; loss: 0.020250; time: 6s
+accuracy: 98.171875 %; loss: 0.088047; time: 5s
+accuracy: 97.976562 %; loss: 0.039538; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 89.250000 %
+Validation time is: 4.245526s
+****************** EPOCH = 140 ******************
+accuracy: 98.159428 %; loss: 0.034542; time: 13s
+accuracy: 97.976562 %; loss: 0.026945; time: 6s
+accuracy: 98.250000 %; loss: 0.065206; time: 6s
+accuracy: 98.046875 %; loss: 0.047936; time: 5s
+****************** EPOCH = 141 ******************
+accuracy: 97.943474 %; loss: 0.074687; time: 9s
+accuracy: 98.234375 %; loss: 0.082719; time: 5s
+accuracy: 98.210938 %; loss: 0.040260; time: 6s
+accuracy: 97.921875 %; loss: 0.067498; time: 6s
+****************** EPOCH = 142 ******************
+accuracy: 98.204140 %; loss: 0.053913; time: 9s
+accuracy: 98.085938 %; loss: 0.048373; time: 5s
+accuracy: 97.789062 %; loss: 0.057159; time: 5s
+accuracy: 98.117188 %; loss: 0.095433; time: 5s
+****************** EPOCH = 143 ******************
+accuracy: 98.273983 %; loss: 0.035668; time: 9s
+accuracy: 97.968750 %; loss: 0.059683; time: 6s
+accuracy: 98.570312 %; loss: 0.043710; time: 6s
+accuracy: 97.859375 %; loss: 0.068363; time: 5s
+****************** EPOCH = 144 ******************
+accuracy: 98.199013 %; loss: 0.032323; time: 8s
+accuracy: 98.296875 %; loss: 0.060116; time: 6s
+accuracy: 98.273438 %; loss: 0.028081; time: 6s
+****************** EPOCH = 145 ******************
+accuracy: 98.242188 %; loss: 0.072475; time: 9s
+accuracy: 98.101562 %; loss: 0.116592; time: 5s
+accuracy: 98.570312 %; loss: 0.017069; time: 5s
+accuracy: 98.273438 %; loss: 0.117216; time: 5s
+****************** EPOCH = 146 ******************
+accuracy: 97.716346 %; loss: 0.014599; time: 9s
+accuracy: 98.031250 %; loss: 0.066166; time: 6s
+accuracy: 98.296875 %; loss: 0.042593; time: 6s
+accuracy: 98.234375 %; loss: 0.058321; time: 5s
+****************** EPOCH = 147 ******************
+accuracy: 98.437500 %; loss: 0.072202; time: 8s
+accuracy: 98.164062 %; loss: 0.135597; time: 5s
+accuracy: 97.968750 %; loss: 0.075484; time: 6s
+accuracy: 97.929688 %; loss: 0.067496; time: 6s
+****************** EPOCH = 148 ******************
+accuracy: 98.235887 %; loss: 0.048976; time: 9s
+accuracy: 98.203125 %; loss: 0.058575; time: 5s
+accuracy: 98.445312 %; loss: 0.040208; time: 5s
+accuracy: 98.546875 %; loss: 0.031506; time: 5s
+****************** EPOCH = 149 ******************
+accuracy: 98.417969 %; loss: 0.029030; time: 9s
+accuracy: 98.257812 %; loss: 0.034126; time: 6s
+accuracy: 98.390625 %; loss: 0.026820; time: 6s
+accuracy: 98.351562 %; loss: 0.011417; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 89.390000 %
+Validation time is: 3.563018s
+****************** EPOCH = 150 ******************
+learning rate change to 0.001000
+accuracy: 98.549107 %; loss: 0.022129; time: 12s
+accuracy: 99.054688 %; loss: 0.058547; time: 5s
+accuracy: 98.804688 %; loss: 0.026857; time: 6s
+accuracy: 99.023438 %; loss: 0.042295; time: 6s
+****************** EPOCH = 151 ******************
+accuracy: 99.245690 %; loss: 0.017601; time: 9s
+accuracy: 99.296875 %; loss: 0.016630; time: 5s
+accuracy: 99.210938 %; loss: 0.006455; time: 5s
+accuracy: 99.359375 %; loss: 0.007505; time: 6s
+****************** EPOCH = 152 ******************
+accuracy: 99.428638 %; loss: 0.008792; time: 9s
+accuracy: 99.398438 %; loss: 0.033297; time: 6s
+accuracy: 99.531250 %; loss: 0.011865; time: 5s
+accuracy: 99.445312 %; loss: 0.009597; time: 5s
+****************** EPOCH = 153 ******************
+accuracy: 99.496299 %; loss: 0.002134; time: 9s
+accuracy: 99.546875 %; loss: 0.007625; time: 5s
+accuracy: 99.476562 %; loss: 0.007268; time: 6s
+accuracy: 99.484375 %; loss: 0.010449; time: 6s
+****************** EPOCH = 154 ******************
+accuracy: 99.402574 %; loss: 0.021139; time: 9s
+accuracy: 99.515625 %; loss: 0.019762; time: 5s
+accuracy: 99.625000 %; loss: 0.017716; time: 5s
+accuracy: 99.648438 %; loss: 0.017316; time: 6s
+****************** EPOCH = 155 ******************
+accuracy: 99.526263 %; loss: 0.004726; time: 9s
+accuracy: 99.640625 %; loss: 0.024804; time: 5s
+accuracy: 99.570312 %; loss: 0.029414; time: 5s
+****************** EPOCH = 156 ******************
+accuracy: 99.739583 %; loss: 0.015880; time: 9s
+accuracy: 99.648438 %; loss: 0.004431; time: 6s
+accuracy: 99.726562 %; loss: 0.011579; time: 6s
+accuracy: 99.570312 %; loss: 0.016504; time: 6s
+****************** EPOCH = 157 ******************
+accuracy: 99.934896 %; loss: 0.006690; time: 9s
+accuracy: 99.562500 %; loss: 0.025884; time: 5s
+accuracy: 99.585938 %; loss: 0.008796; time: 5s
+accuracy: 99.695312 %; loss: 0.013593; time: 6s
+****************** EPOCH = 158 ******************
+accuracy: 99.888393 %; loss: 0.003926; time: 9s
+accuracy: 99.718750 %; loss: 0.017523; time: 6s
+accuracy: 99.632812 %; loss: 0.001863; time: 5s
+accuracy: 99.656250 %; loss: 0.001865; time: 5s
+****************** EPOCH = 159 ******************
+accuracy: 99.739583 %; loss: 0.009224; time: 9s
+accuracy: 99.789062 %; loss: 0.003310; time: 6s
+accuracy: 99.765625 %; loss: 0.024494; time: 6s
+accuracy: 99.679688 %; loss: 0.028271; time: 6s
+*************** Validation ***************
+Accuracy of the network validation images: 90.840000 %
+Validation time is: 3.688526s
+****************** EPOCH = 160 ******************
+accuracy: 99.739583 %; loss: 0.002145; time: 12s
+accuracy: 99.742188 %; loss: 0.010970; time: 5s
+accuracy: 99.718750 %; loss: 0.002246; time: 6s
+accuracy: 99.734375 %; loss: 0.023808; time: 6s
+****************** EPOCH = 161 ******************
+accuracy: 99.853516 %; loss: 0.007108; time: 9s
+accuracy: 99.718750 %; loss: 0.004071; time: 5s
+accuracy: 99.734375 %; loss: 0.032618; time: 5s
+accuracy: 99.742188 %; loss: 0.002340; time: 5s
+****************** EPOCH = 162 ******************
+accuracy: 99.712171 %; loss: 0.004291; time: 9s
+accuracy: 99.773438 %; loss: 0.024169; time: 6s
+accuracy: 99.750000 %; loss: 0.006014; time: 6s
+accuracy: 99.710938 %; loss: 0.006065; time: 5s
+****************** EPOCH = 163 ******************
+accuracy: 99.751420 %; loss: 0.004228; time: 8s
+accuracy: 99.757812 %; loss: 0.002641; time: 5s
+accuracy: 99.742188 %; loss: 0.021509; time: 6s
+accuracy: 99.718750 %; loss: 0.007888; time: 6s
+****************** EPOCH = 164 ******************
+accuracy: 99.666667 %; loss: 0.003587; time: 9s
+accuracy: 99.765625 %; loss: 0.004977; time: 5s
+accuracy: 99.734375 %; loss: 0.002829; time: 5s
+accuracy: 99.679688 %; loss: 0.009672; time: 5s
+****************** EPOCH = 165 ******************
+accuracy: 99.832589 %; loss: 0.010372; time: 9s
+accuracy: 99.695312 %; loss: 0.003081; time: 6s
+accuracy: 99.710938 %; loss: 0.002534; time: 5s
+accuracy: 99.820312 %; loss: 0.036363; time: 5s
+****************** EPOCH = 166 ******************
+accuracy: 99.739583 %; loss: 0.020722; time: 8s
+accuracy: 99.734375 %; loss: 0.003951; time: 6s
+accuracy: 99.812500 %; loss: 0.001275; time: 6s
+****************** EPOCH = 167 ******************
+accuracy: 100.000000 %; loss: 0.004686; time: 9s
+accuracy: 99.781250 %; loss: 0.004060; time: 5s
+accuracy: 99.765625 %; loss: 0.001051; time: 5s
+accuracy: 99.703125 %; loss: 0.001302; time: 5s
+****************** EPOCH = 168 ******************
+accuracy: 99.857955 %; loss: 0.003225; time: 9s
+accuracy: 99.773438 %; loss: 0.004402; time: 6s
+accuracy: 99.765625 %; loss: 0.010493; time: 6s
+accuracy: 99.750000 %; loss: 0.011603; time: 5s
+****************** EPOCH = 169 ******************
+accuracy: 99.765625 %; loss: 0.006951; time: 8s
+accuracy: 99.773438 %; loss: 0.001580; time: 5s
+accuracy: 99.835938 %; loss: 0.011829; time: 6s
+accuracy: 99.773438 %; loss: 0.005876; time: 6s
+*************** Validation ***************
+Accuracy of the network validation images: 91.220000 %
+Validation time is: 3.915952s
+****************** EPOCH = 170 ******************
+accuracy: 99.892241 %; loss: 0.006284; time: 13s
+accuracy: 99.796875 %; loss: 0.001435; time: 5s
+accuracy: 99.820312 %; loss: 0.001374; time: 5s
+accuracy: 99.812500 %; loss: 0.001165; time: 6s
+****************** EPOCH = 171 ******************
+accuracy: 99.856086 %; loss: 0.014044; time: 9s
+accuracy: 99.859375 %; loss: 0.004287; time: 6s
+accuracy: 99.796875 %; loss: 0.006509; time: 5s
+accuracy: 99.742188 %; loss: 0.023744; time: 5s
+****************** EPOCH = 172 ******************
+accuracy: 99.916888 %; loss: 0.002608; time: 9s
+accuracy: 99.734375 %; loss: 0.003600; time: 6s
+accuracy: 99.804688 %; loss: 0.000556; time: 6s
+accuracy: 99.796875 %; loss: 0.002873; time: 6s
+****************** EPOCH = 173 ******************
+accuracy: 99.874442 %; loss: 0.001284; time: 9s
+accuracy: 99.773438 %; loss: 0.004749; time: 5s
+accuracy: 99.843750 %; loss: 0.002478; time: 5s
+accuracy: 99.796875 %; loss: 0.001981; time: 5s
+****************** EPOCH = 174 ******************
+accuracy: 99.783654 %; loss: 0.018389; time: 8s
+accuracy: 99.742188 %; loss: 0.026169; time: 5s
+accuracy: 99.812500 %; loss: 0.009094; time: 5s
+accuracy: 99.781250 %; loss: 0.017495; time: 5s
+****************** EPOCH = 175 ******************
+accuracy: 99.799409 %; loss: 0.005068; time: 8s
+accuracy: 99.789062 %; loss: 0.009649; time: 5s
+accuracy: 99.812500 %; loss: 0.004256; time: 6s
+accuracy: 99.828125 %; loss: 0.000349; time: 6s
+****************** EPOCH = 176 ******************
+accuracy: 99.811747 %; loss: 0.000924; time: 9s
+accuracy: 99.820312 %; loss: 0.033227; time: 5s
+accuracy: 99.812500 %; loss: 0.004539; time: 5s
+accuracy: 99.773438 %; loss: 0.005394; time: 5s
+****************** EPOCH = 177 ******************
+accuracy: 99.779212 %; loss: 0.002761; time: 9s
+accuracy: 99.820312 %; loss: 0.007214; time: 6s
+accuracy: 99.875000 %; loss: 0.000939; time: 5s
+****************** EPOCH = 178 ******************
+accuracy: 100.000000 %; loss: 0.005979; time: 8s
+accuracy: 99.820312 %; loss: 0.004619; time: 5s
+accuracy: 99.828125 %; loss: 0.000519; time: 6s
+accuracy: 99.890625 %; loss: 0.000760; time: 6s
+****************** EPOCH = 179 ******************
+accuracy: 99.921875 %; loss: 0.005802; time: 9s
+accuracy: 99.851562 %; loss: 0.001923; time: 5s
+accuracy: 99.851562 %; loss: 0.004209; time: 5s
+accuracy: 99.820312 %; loss: 0.004122; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.190000 %
+Validation time is: 3.886212s
+****************** EPOCH = 180 ******************
+accuracy: 99.794408 %; loss: 0.000989; time: 13s
+accuracy: 99.859375 %; loss: 0.001144; time: 6s
+accuracy: 99.804688 %; loss: 0.003013; time: 5s
+accuracy: 99.828125 %; loss: 0.003363; time: 5s
+****************** EPOCH = 181 ******************
+accuracy: 99.888393 %; loss: 0.004373; time: 9s
+accuracy: 99.835938 %; loss: 0.001379; time: 6s
+accuracy: 99.859375 %; loss: 0.014765; time: 6s
+accuracy: 99.843750 %; loss: 0.000732; time: 6s
+****************** EPOCH = 182 ******************
+accuracy: 99.788851 %; loss: 0.001788; time: 9s
+accuracy: 99.867188 %; loss: 0.004193; time: 5s
+accuracy: 99.890625 %; loss: 0.001297; time: 5s
+accuracy: 99.789062 %; loss: 0.001095; time: 6s
+****************** EPOCH = 183 ******************
+accuracy: 99.830163 %; loss: 0.001891; time: 9s
+accuracy: 99.781250 %; loss: 0.007769; time: 6s
+accuracy: 99.882812 %; loss: 0.002435; time: 5s
+accuracy: 99.828125 %; loss: 0.006306; time: 5s
+****************** EPOCH = 184 ******************
+accuracy: 99.857955 %; loss: 0.006068; time: 9s
+accuracy: 99.851562 %; loss: 0.003976; time: 6s
+accuracy: 99.820312 %; loss: 0.001789; time: 6s
+accuracy: 99.796875 %; loss: 0.002025; time: 6s
+****************** EPOCH = 185 ******************
+accuracy: 99.877930 %; loss: 0.001323; time: 9s
+accuracy: 99.859375 %; loss: 0.002820; time: 5s
+accuracy: 99.875000 %; loss: 0.007550; time: 5s
+accuracy: 99.843750 %; loss: 0.003527; time: 6s
+****************** EPOCH = 186 ******************
+accuracy: 99.871575 %; loss: 0.009000; time: 9s
+accuracy: 99.773438 %; loss: 0.003612; time: 5s
+accuracy: 99.882812 %; loss: 0.005750; time: 5s
+accuracy: 99.843750 %; loss: 0.002442; time: 5s
+****************** EPOCH = 187 ******************
+accuracy: 99.818979 %; loss: 0.009970; time: 9s
+accuracy: 99.898438 %; loss: 0.010948; time: 6s
+accuracy: 99.789062 %; loss: 0.006572; time: 6s
+accuracy: 99.835938 %; loss: 0.000461; time: 5s
+****************** EPOCH = 188 ******************
+accuracy: 99.939904 %; loss: 0.000717; time: 9s
+accuracy: 99.875000 %; loss: 0.001160; time: 5s
+accuracy: 99.906250 %; loss: 0.010229; time: 6s
+accuracy: 99.874529 %; loss: 0.004721; time: 6s
+****************** EPOCH = 189 ******************
+accuracy: 99.843750 %; loss: 0.006515; time: 9s
+accuracy: 99.843750 %; loss: 0.027904; time: 5s
+accuracy: 99.804688 %; loss: 0.018274; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.190000 %
+Validation time is: 3.857035s
+****************** EPOCH = 190 ******************
+accuracy: 99.826389 %; loss: 0.013023; time: 12s
+accuracy: 99.867188 %; loss: 0.000316; time: 6s
+accuracy: 99.945312 %; loss: 0.005422; time: 6s
+accuracy: 99.890625 %; loss: 0.006003; time: 5s
+****************** EPOCH = 191 ******************
+accuracy: 99.956597 %; loss: 0.008862; time: 8s
+accuracy: 99.921875 %; loss: 0.002133; time: 5s
+accuracy: 99.875000 %; loss: 0.000415; time: 6s
+accuracy: 99.804688 %; loss: 0.004855; time: 6s
+****************** EPOCH = 192 ******************
+accuracy: 99.855324 %; loss: 0.000798; time: 9s
+accuracy: 99.812500 %; loss: 0.002039; time: 5s
+accuracy: 99.835938 %; loss: 0.001080; time: 5s
+accuracy: 99.929688 %; loss: 0.001090; time: 5s
+****************** EPOCH = 193 ******************
+accuracy: 99.826389 %; loss: 0.004932; time: 9s
+accuracy: 99.851562 %; loss: 0.001123; time: 6s
+accuracy: 99.835938 %; loss: 0.014894; time: 6s
+accuracy: 99.882812 %; loss: 0.019820; time: 6s
+****************** EPOCH = 194 ******************
+accuracy: 99.913194 %; loss: 0.003941; time: 9s
+accuracy: 99.921875 %; loss: 0.003524; time: 5s
+accuracy: 99.804688 %; loss: 0.002612; time: 6s
+accuracy: 99.914062 %; loss: 0.000769; time: 6s
+****************** EPOCH = 195 ******************
+accuracy: 99.956597 %; loss: 0.001132; time: 9s
+accuracy: 99.867188 %; loss: 0.002344; time: 5s
+accuracy: 99.906250 %; loss: 0.004022; time: 5s
+accuracy: 99.859375 %; loss: 0.001951; time: 5s
+****************** EPOCH = 196 ******************
+accuracy: 99.851190 %; loss: 0.000922; time: 9s
+accuracy: 99.859375 %; loss: 0.000837; time: 6s
+accuracy: 99.882812 %; loss: 0.000819; time: 6s
+accuracy: 99.882812 %; loss: 0.016251; time: 5s
+****************** EPOCH = 197 ******************
+accuracy: 99.913194 %; loss: 0.011500; time: 9s
+accuracy: 99.921875 %; loss: 0.000878; time: 5s
+accuracy: 99.875000 %; loss: 0.003907; time: 6s
+accuracy: 99.875000 %; loss: 0.002408; time: 6s
+****************** EPOCH = 198 ******************
+accuracy: 99.874614 %; loss: 0.000993; time: 9s
+accuracy: 99.867188 %; loss: 0.001695; time: 5s
+accuracy: 99.859375 %; loss: 0.013283; time: 5s
+accuracy: 99.890625 %; loss: 0.002879; time: 5s
+****************** EPOCH = 199 ******************
+accuracy: 99.878472 %; loss: 0.000731; time: 9s
+accuracy: 99.835938 %; loss: 0.004381; time: 6s
+accuracy: 99.875000 %; loss: 0.001598; time: 6s
+accuracy: 99.914062 %; loss: 0.001732; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.230000 %
+Validation time is: 3.789301s
+****************** EPOCH = 200 ******************
+accuracy: 99.865846 %; loss: 0.000777; time: 12s
+accuracy: 99.867188 %; loss: 0.000526; time: 6s
+accuracy: 99.890625 %; loss: 0.000502; time: 6s
+****************** EPOCH = 201 ******************
+accuracy: 100.000000 %; loss: 0.000520; time: 10s
+accuracy: 99.843750 %; loss: 0.004547; time: 5s
+accuracy: 99.882812 %; loss: 0.012595; time: 5s
+accuracy: 99.906250 %; loss: 0.002620; time: 5s
+****************** EPOCH = 202 ******************
+accuracy: 99.954044 %; loss: 0.001491; time: 10s
+accuracy: 99.867188 %; loss: 0.003091; time: 6s
+accuracy: 99.867188 %; loss: 0.003713; time: 6s
+accuracy: 99.898438 %; loss: 0.000303; time: 6s
+****************** EPOCH = 203 ******************
+accuracy: 99.789663 %; loss: 0.000659; time: 9s
+accuracy: 99.929688 %; loss: 0.010782; time: 5s
+accuracy: 99.906250 %; loss: 0.002088; time: 6s
+accuracy: 99.843750 %; loss: 0.003814; time: 6s
+****************** EPOCH = 204 ******************
+accuracy: 99.910714 %; loss: 0.000968; time: 10s
+accuracy: 99.929688 %; loss: 0.001854; time: 5s
+accuracy: 99.890625 %; loss: 0.002266; time: 5s
+accuracy: 99.859375 %; loss: 0.008512; time: 5s
+****************** EPOCH = 205 ******************
+accuracy: 99.928977 %; loss: 0.000317; time: 9s
+accuracy: 99.914062 %; loss: 0.001813; time: 5s
+accuracy: 99.882812 %; loss: 0.001601; time: 5s
+accuracy: 99.906250 %; loss: 0.000108; time: 5s
+****************** EPOCH = 206 ******************
+accuracy: 99.896816 %; loss: 0.001341; time: 8s
+accuracy: 99.914062 %; loss: 0.001125; time: 5s
+accuracy: 99.851562 %; loss: 0.001571; time: 5s
+accuracy: 99.867188 %; loss: 0.015988; time: 5s
+****************** EPOCH = 207 ******************
+accuracy: 99.861391 %; loss: 0.001543; time: 9s
+accuracy: 99.890625 %; loss: 0.014827; time: 5s
+accuracy: 99.921875 %; loss: 0.001344; time: 5s
+accuracy: 99.921875 %; loss: 0.009136; time: 5s
+****************** EPOCH = 208 ******************
+accuracy: 99.911972 %; loss: 0.011844; time: 9s
+accuracy: 99.945312 %; loss: 0.002835; time: 5s
+accuracy: 99.960938 %; loss: 0.004086; time: 5s
+accuracy: 99.867188 %; loss: 0.008803; time: 5s
+****************** EPOCH = 209 ******************
+accuracy: 99.941406 %; loss: 0.000416; time: 8s
+accuracy: 99.914062 %; loss: 0.000484; time: 5s
+accuracy: 99.898438 %; loss: 0.001602; time: 5s
+accuracy: 99.875000 %; loss: 0.000670; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.250000 %
+Validation time is: 3.916368s
+****************** EPOCH = 210 ******************
+accuracy: 99.877107 %; loss: 0.046625; time: 13s
+accuracy: 99.851562 %; loss: 0.005131; time: 5s
+accuracy: 99.921875 %; loss: 0.002144; time: 5s
+accuracy: 99.851562 %; loss: 0.040539; time: 5s
+****************** EPOCH = 211 ******************
+accuracy: 99.912309 %; loss: 0.000937; time: 9s
+accuracy: 99.890625 %; loss: 0.000618; time: 5s
+accuracy: 99.914062 %; loss: 0.019441; time: 5s
+****************** EPOCH = 212 ******************
+accuracy: 99.888393 %; loss: 0.000253; time: 8s
+accuracy: 99.921875 %; loss: 0.000339; time: 5s
+accuracy: 99.906250 %; loss: 0.005359; time: 5s
+accuracy: 99.953125 %; loss: 0.002853; time: 6s
+****************** EPOCH = 213 ******************
+accuracy: 99.902344 %; loss: 0.000235; time: 9s
+accuracy: 99.890625 %; loss: 0.002014; time: 5s
+accuracy: 99.898438 %; loss: 0.000826; time: 5s
+accuracy: 99.890625 %; loss: 0.002846; time: 5s
+****************** EPOCH = 214 ******************
+accuracy: 99.937500 %; loss: 0.004224; time: 9s
+accuracy: 99.875000 %; loss: 0.019862; time: 5s
+accuracy: 99.898438 %; loss: 0.000102; time: 5s
+accuracy: 99.898438 %; loss: 0.002197; time: 5s
+****************** EPOCH = 215 ******************
+accuracy: 99.931066 %; loss: 0.007598; time: 8s
+accuracy: 99.835938 %; loss: 0.002112; time: 5s
+accuracy: 99.921875 %; loss: 0.001655; time: 5s
+accuracy: 99.914062 %; loss: 0.001825; time: 6s
+****************** EPOCH = 216 ******************
+accuracy: 99.909157 %; loss: 0.002979; time: 9s
+accuracy: 99.929688 %; loss: 0.000662; time: 5s
+accuracy: 99.929688 %; loss: 0.002872; time: 5s
+accuracy: 99.937500 %; loss: 0.001286; time: 5s
+****************** EPOCH = 217 ******************
+accuracy: 99.909856 %; loss: 0.000603; time: 9s
+accuracy: 99.906250 %; loss: 0.004128; time: 5s
+accuracy: 99.914062 %; loss: 0.000417; time: 5s
+accuracy: 99.953125 %; loss: 0.002237; time: 5s
+****************** EPOCH = 218 ******************
+accuracy: 99.923156 %; loss: 0.000652; time: 8s
+accuracy: 99.921875 %; loss: 0.002519; time: 5s
+accuracy: 99.921875 %; loss: 0.003174; time: 5s
+accuracy: 99.914062 %; loss: 0.009638; time: 6s
+****************** EPOCH = 219 ******************
+accuracy: 99.933036 %; loss: 0.002255; time: 9s
+accuracy: 99.875000 %; loss: 0.007189; time: 5s
+accuracy: 99.890625 %; loss: 0.000622; time: 5s
+accuracy: 99.929688 %; loss: 0.001689; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.140000 %
+Validation time is: 3.870424s
+****************** EPOCH = 220 ******************
+accuracy: 99.930775 %; loss: 0.000567; time: 13s
+accuracy: 99.898438 %; loss: 0.000723; time: 5s
+accuracy: 99.929688 %; loss: 0.002716; time: 5s
+accuracy: 99.937500 %; loss: 0.000320; time: 5s
+****************** EPOCH = 221 ******************
+accuracy: 99.866832 %; loss: 0.001441; time: 9s
+accuracy: 99.914062 %; loss: 0.000931; time: 5s
+accuracy: 99.906250 %; loss: 0.001045; time: 5s
+accuracy: 99.890625 %; loss: 0.001431; time: 5s
+****************** EPOCH = 222 ******************
+accuracy: 99.927513 %; loss: 0.000321; time: 8s
+accuracy: 99.890625 %; loss: 0.001763; time: 5s
+accuracy: 99.914062 %; loss: 0.013327; time: 5s
+****************** EPOCH = 223 ******************
+accuracy: 100.000000 %; loss: 0.001053; time: 9s
+accuracy: 99.960938 %; loss: 0.000358; time: 5s
+accuracy: 99.929688 %; loss: 0.021629; time: 5s
+accuracy: 99.968750 %; loss: 0.000245; time: 5s
+****************** EPOCH = 224 ******************
+accuracy: 99.947917 %; loss: 0.000783; time: 8s
+accuracy: 99.914062 %; loss: 0.000609; time: 5s
+accuracy: 99.929688 %; loss: 0.002120; time: 6s
+accuracy: 99.937500 %; loss: 0.002783; time: 5s
+****************** EPOCH = 225 ******************
+accuracy: 99.902344 %; loss: 0.001196; time: 9s
+accuracy: 99.929688 %; loss: 0.005934; time: 5s
+accuracy: 99.898438 %; loss: 0.001277; time: 5s
+accuracy: 99.875000 %; loss: 0.000643; time: 5s
+****************** EPOCH = 226 ******************
+accuracy: 99.763258 %; loss: 0.029906; time: 9s
+accuracy: 99.906250 %; loss: 0.001602; time: 5s
+accuracy: 99.906250 %; loss: 0.003890; time: 5s
+accuracy: 99.898438 %; loss: 0.004900; time: 5s
+****************** EPOCH = 227 ******************
+accuracy: 99.925595 %; loss: 0.000303; time: 9s
+accuracy: 99.867188 %; loss: 0.000453; time: 5s
+accuracy: 99.898438 %; loss: 0.005888; time: 6s
+accuracy: 99.937500 %; loss: 0.019220; time: 5s
+****************** EPOCH = 228 ******************
+accuracy: 99.862132 %; loss: 0.003734; time: 9s
+accuracy: 99.890625 %; loss: 0.000111; time: 5s
+accuracy: 99.882812 %; loss: 0.001264; time: 5s
+accuracy: 99.953125 %; loss: 0.002293; time: 5s
+****************** EPOCH = 229 ******************
+accuracy: 99.869792 %; loss: 0.000600; time: 9s
+accuracy: 99.906250 %; loss: 0.000988; time: 5s
+accuracy: 99.882812 %; loss: 0.000724; time: 5s
+accuracy: 99.898438 %; loss: 0.001083; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.330000 %
+Validation time is: 3.689918s
+****************** EPOCH = 230 ******************
+accuracy: 99.864130 %; loss: 0.013516; time: 12s
+accuracy: 99.906250 %; loss: 0.000505; time: 5s
+accuracy: 99.906250 %; loss: 0.001604; time: 5s
+accuracy: 99.929688 %; loss: 0.000922; time: 5s
+****************** EPOCH = 231 ******************
+accuracy: 99.889824 %; loss: 0.007520; time: 8s
+accuracy: 99.921875 %; loss: 0.007080; time: 5s
+accuracy: 99.929688 %; loss: 0.000418; time: 5s
+accuracy: 99.914062 %; loss: 0.000564; time: 5s
+****************** EPOCH = 232 ******************
+accuracy: 99.847342 %; loss: 0.001826; time: 9s
+accuracy: 99.921875 %; loss: 0.017927; time: 6s
+accuracy: 99.890625 %; loss: 0.000393; time: 6s
+accuracy: 99.875000 %; loss: 0.003449; time: 5s
+****************** EPOCH = 233 ******************
+accuracy: 99.934896 %; loss: 0.000859; time: 8s
+accuracy: 99.906250 %; loss: 0.001853; time: 5s
+accuracy: 99.929688 %; loss: 0.018450; time: 5s
+****************** EPOCH = 234 ******************
+accuracy: 100.000000 %; loss: 0.011233; time: 9s
+accuracy: 99.929688 %; loss: 0.003670; time: 5s
+accuracy: 99.968750 %; loss: 0.018183; time: 5s
+accuracy: 99.882812 %; loss: 0.003877; time: 5s
+****************** EPOCH = 235 ******************
+accuracy: 99.832589 %; loss: 0.003129; time: 9s
+accuracy: 99.945312 %; loss: 0.014966; time: 5s
+accuracy: 99.875000 %; loss: 0.005271; time: 5s
+accuracy: 99.945312 %; loss: 0.005996; time: 5s
+****************** EPOCH = 236 ******************
+accuracy: 99.932065 %; loss: 0.000391; time: 9s
+accuracy: 99.921875 %; loss: 0.003139; time: 5s
+accuracy: 99.890625 %; loss: 0.004288; time: 6s
+accuracy: 99.906250 %; loss: 0.000614; time: 5s
+****************** EPOCH = 237 ******************
+accuracy: 99.975586 %; loss: 0.000552; time: 9s
+accuracy: 99.914062 %; loss: 0.015470; time: 5s
+accuracy: 99.960938 %; loss: 0.000219; time: 5s
+accuracy: 99.898438 %; loss: 0.000467; time: 5s
+****************** EPOCH = 238 ******************
+accuracy: 99.942835 %; loss: 0.001443; time: 8s
+accuracy: 99.882812 %; loss: 0.001215; time: 5s
+accuracy: 99.937500 %; loss: 0.000993; time: 5s
+accuracy: 99.937500 %; loss: 0.001723; time: 5s
+****************** EPOCH = 239 ******************
+accuracy: 99.953125 %; loss: 0.001116; time: 8s
+accuracy: 99.906250 %; loss: 0.000331; time: 5s
+accuracy: 99.906250 %; loss: 0.004862; time: 5s
+accuracy: 99.914062 %; loss: 0.000444; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.200000 %
+Validation time is: 3.481033s
+****************** EPOCH = 240 ******************
+accuracy: 99.933792 %; loss: 0.001217; time: 12s
+accuracy: 99.945312 %; loss: 0.003272; time: 5s
+accuracy: 99.953125 %; loss: 0.000539; time: 5s
+accuracy: 99.921875 %; loss: 0.000217; time: 5s
+****************** EPOCH = 241 ******************
+accuracy: 99.908088 %; loss: 0.000521; time: 9s
+accuracy: 99.906250 %; loss: 0.008279; time: 5s
+accuracy: 99.953125 %; loss: 0.006361; time: 5s
+accuracy: 99.937500 %; loss: 0.000152; time: 5s
+****************** EPOCH = 242 ******************
+accuracy: 99.979708 %; loss: 0.000108; time: 8s
+accuracy: 99.953125 %; loss: 0.002038; time: 5s
+accuracy: 99.945312 %; loss: 0.004671; time: 5s
+accuracy: 99.929688 %; loss: 0.000803; time: 5s
+****************** EPOCH = 243 ******************
+accuracy: 99.918241 %; loss: 0.001071; time: 8s
+accuracy: 99.960938 %; loss: 0.000864; time: 5s
+accuracy: 99.921875 %; loss: 0.001896; time: 5s
+accuracy: 99.921875 %; loss: 0.002993; time: 5s
+****************** EPOCH = 244 ******************
+accuracy: 99.958882 %; loss: 0.001744; time: 8s
+accuracy: 99.875000 %; loss: 0.000387; time: 5s
+accuracy: 99.929688 %; loss: 0.005927; time: 5s
+****************** EPOCH = 245 ******************
+accuracy: 100.000000 %; loss: 0.005574; time: 8s
+accuracy: 99.937500 %; loss: 0.002016; time: 5s
+accuracy: 99.937500 %; loss: 0.002279; time: 5s
+accuracy: 99.937500 %; loss: 0.000774; time: 5s
+****************** EPOCH = 246 ******************
+accuracy: 100.000000 %; loss: 0.000319; time: 8s
+accuracy: 99.945312 %; loss: 0.014693; time: 5s
+accuracy: 99.937500 %; loss: 0.001624; time: 5s
+accuracy: 99.929688 %; loss: 0.002821; time: 5s
+****************** EPOCH = 247 ******************
+accuracy: 99.893466 %; loss: 0.000466; time: 8s
+accuracy: 99.937500 %; loss: 0.003238; time: 5s
+accuracy: 99.945312 %; loss: 0.000332; time: 5s
+accuracy: 99.890625 %; loss: 0.001731; time: 5s
+****************** EPOCH = 248 ******************
+accuracy: 99.899194 %; loss: 0.000330; time: 8s
+accuracy: 99.921875 %; loss: 0.002762; time: 5s
+accuracy: 99.921875 %; loss: 0.000499; time: 5s
+accuracy: 99.953125 %; loss: 0.000321; time: 5s
+****************** EPOCH = 249 ******************
+accuracy: 99.921875 %; loss: 0.001004; time: 8s
+accuracy: 99.929688 %; loss: 0.000696; time: 5s
+accuracy: 99.953125 %; loss: 0.001803; time: 5s
+accuracy: 99.976562 %; loss: 0.001092; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.180000 %
+Validation time is: 3.503493s
+****************** EPOCH = 250 ******************
+learning rate change to 0.000100
+accuracy: 99.952168 %; loss: 0.000793; time: 12s
+accuracy: 99.882812 %; loss: 0.003516; time: 5s
+accuracy: 99.945312 %; loss: 0.000987; time: 5s
+accuracy: 99.960938 %; loss: 0.000610; time: 5s
+****************** EPOCH = 251 ******************
+accuracy: 99.959591 %; loss: 0.000966; time: 8s
+accuracy: 99.937500 %; loss: 0.001228; time: 5s
+accuracy: 99.968750 %; loss: 0.002024; time: 5s
+accuracy: 99.914062 %; loss: 0.004163; time: 5s
+****************** EPOCH = 252 ******************
+accuracy: 99.941698 %; loss: 0.000291; time: 8s
+accuracy: 99.898438 %; loss: 0.000470; time: 5s
+accuracy: 99.945312 %; loss: 0.000846; time: 5s
+accuracy: 99.906250 %; loss: 0.001322; time: 5s
+****************** EPOCH = 253 ******************
+accuracy: 99.917763 %; loss: 0.000111; time: 8s
+accuracy: 99.906250 %; loss: 0.000392; time: 5s
+accuracy: 99.953125 %; loss: 0.001562; time: 5s
+accuracy: 99.906250 %; loss: 0.002757; time: 5s
+****************** EPOCH = 254 ******************
+accuracy: 99.908088 %; loss: 0.000353; time: 8s
+accuracy: 99.960938 %; loss: 0.003959; time: 5s
+accuracy: 99.945312 %; loss: 0.005460; time: 5s
+accuracy: 99.968750 %; loss: 0.000127; time: 5s
+****************** EPOCH = 255 ******************
+accuracy: 99.925199 %; loss: 0.000590; time: 8s
+accuracy: 99.898438 %; loss: 0.005137; time: 5s
+accuracy: 99.921875 %; loss: 0.003631; time: 5s
+****************** EPOCH = 256 ******************
+accuracy: 100.000000 %; loss: 0.000748; time: 8s
+accuracy: 99.968750 %; loss: 0.002364; time: 5s
+accuracy: 99.945312 %; loss: 0.001528; time: 5s
+accuracy: 99.875000 %; loss: 0.000437; time: 5s
+****************** EPOCH = 257 ******************
+accuracy: 99.934896 %; loss: 0.000746; time: 8s
+accuracy: 99.929688 %; loss: 0.000168; time: 5s
+accuracy: 99.945312 %; loss: 0.000379; time: 5s
+accuracy: 99.984375 %; loss: 0.002270; time: 5s
+****************** EPOCH = 258 ******************
+accuracy: 99.925595 %; loss: 0.014135; time: 8s
+accuracy: 99.929688 %; loss: 0.000707; time: 5s
+accuracy: 99.945312 %; loss: 0.015670; time: 5s
+accuracy: 99.937500 %; loss: 0.000543; time: 5s
+****************** EPOCH = 259 ******************
+accuracy: 99.947917 %; loss: 0.001325; time: 8s
+accuracy: 99.914062 %; loss: 0.000482; time: 5s
+accuracy: 99.914062 %; loss: 0.000563; time: 5s
+accuracy: 99.929688 %; loss: 0.001029; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.220000 %
+Validation time is: 3.389463s
+****************** EPOCH = 260 ******************
+accuracy: 99.959936 %; loss: 0.000423; time: 11s
+accuracy: 99.968750 %; loss: 0.000650; time: 5s
+accuracy: 99.953125 %; loss: 0.000283; time: 5s
+accuracy: 99.937500 %; loss: 0.000349; time: 5s
+****************** EPOCH = 261 ******************
+accuracy: 99.902344 %; loss: 0.012374; time: 8s
+accuracy: 99.960938 %; loss: 0.005741; time: 5s
+accuracy: 99.929688 %; loss: 0.008115; time: 5s
+accuracy: 99.968750 %; loss: 0.000733; time: 5s
+****************** EPOCH = 262 ******************
+accuracy: 99.958882 %; loss: 0.001144; time: 8s
+accuracy: 99.984375 %; loss: 0.004624; time: 5s
+accuracy: 99.945312 %; loss: 0.001629; time: 5s
+accuracy: 99.968750 %; loss: 0.002382; time: 5s
+****************** EPOCH = 263 ******************
+accuracy: 99.976326 %; loss: 0.001292; time: 8s
+accuracy: 99.953125 %; loss: 0.000524; time: 5s
+accuracy: 99.968750 %; loss: 0.000359; time: 5s
+accuracy: 99.929688 %; loss: 0.000597; time: 5s
+****************** EPOCH = 264 ******************
+accuracy: 99.937500 %; loss: 0.000229; time: 8s
+accuracy: 99.960938 %; loss: 0.000455; time: 5s
+accuracy: 99.945312 %; loss: 0.000229; time: 5s
+accuracy: 99.953125 %; loss: 0.001471; time: 5s
+****************** EPOCH = 265 ******************
+accuracy: 99.953497 %; loss: 0.000459; time: 8s
+accuracy: 99.929688 %; loss: 0.001391; time: 5s
+accuracy: 99.937500 %; loss: 0.000277; time: 5s
+accuracy: 99.929688 %; loss: 0.001849; time: 5s
+****************** EPOCH = 266 ******************
+accuracy: 99.924395 %; loss: 0.005203; time: 8s
+accuracy: 99.945312 %; loss: 0.002013; time: 5s
+accuracy: 99.914062 %; loss: 0.000548; time: 5s
+****************** EPOCH = 267 ******************
+accuracy: 99.609375 %; loss: 0.000543; time: 8s
+accuracy: 99.945312 %; loss: 0.000572; time: 5s
+accuracy: 99.945312 %; loss: 0.001486; time: 5s
+accuracy: 99.906250 %; loss: 0.000923; time: 5s
+****************** EPOCH = 268 ******************
+accuracy: 99.928977 %; loss: 0.001113; time: 8s
+accuracy: 99.921875 %; loss: 0.001596; time: 5s
+accuracy: 99.953125 %; loss: 0.005224; time: 5s
+accuracy: 99.929688 %; loss: 0.000580; time: 5s
+****************** EPOCH = 269 ******************
+accuracy: 99.960938 %; loss: 0.000684; time: 8s
+accuracy: 99.929688 %; loss: 0.002936; time: 5s
+accuracy: 99.937500 %; loss: 0.000379; time: 5s
+accuracy: 99.906250 %; loss: 0.006847; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.270000 %
+Validation time is: 3.441769s
+****************** EPOCH = 270 ******************
+accuracy: 100.000000 %; loss: 0.005101; time: 12s
+accuracy: 99.937500 %; loss: 0.000362; time: 5s
+accuracy: 99.921875 %; loss: 0.017343; time: 5s
+accuracy: 99.960938 %; loss: 0.000660; time: 5s
+****************** EPOCH = 271 ******************
+accuracy: 99.979441 %; loss: 0.004794; time: 8s
+accuracy: 99.976562 %; loss: 0.002967; time: 5s
+accuracy: 99.968750 %; loss: 0.000345; time: 5s
+accuracy: 99.921875 %; loss: 0.002583; time: 5s
+****************** EPOCH = 272 ******************
+accuracy: 99.950133 %; loss: 0.010755; time: 8s
+accuracy: 99.960938 %; loss: 0.000804; time: 5s
+accuracy: 99.937500 %; loss: 0.000424; time: 5s
+accuracy: 99.953125 %; loss: 0.000898; time: 5s
+****************** EPOCH = 273 ******************
+accuracy: 99.888393 %; loss: 0.000627; time: 8s
+accuracy: 99.953125 %; loss: 0.007726; time: 5s
+accuracy: 99.960938 %; loss: 0.000718; time: 5s
+accuracy: 99.953125 %; loss: 0.002984; time: 5s
+****************** EPOCH = 274 ******************
+accuracy: 99.975962 %; loss: 0.002679; time: 8s
+accuracy: 99.968750 %; loss: 0.004898; time: 5s
+accuracy: 99.937500 %; loss: 0.003075; time: 5s
+accuracy: 99.921875 %; loss: 0.000615; time: 5s
+****************** EPOCH = 275 ******************
+accuracy: 99.915541 %; loss: 0.003295; time: 8s
+accuracy: 99.953125 %; loss: 0.001800; time: 5s
+accuracy: 99.960938 %; loss: 0.000519; time: 5s
+accuracy: 99.945312 %; loss: 0.002749; time: 5s
+****************** EPOCH = 276 ******************
+accuracy: 99.952937 %; loss: 0.000779; time: 8s
+accuracy: 99.929688 %; loss: 0.000278; time: 5s
+accuracy: 99.937500 %; loss: 0.002546; time: 5s
+accuracy: 99.929688 %; loss: 0.005522; time: 5s
+****************** EPOCH = 277 ******************
+accuracy: 99.966033 %; loss: 0.006047; time: 8s
+accuracy: 99.898438 %; loss: 0.000803; time: 5s
+accuracy: 99.953125 %; loss: 0.002924; time: 5s
+****************** EPOCH = 278 ******************
+accuracy: 100.000000 %; loss: 0.001363; time: 8s
+accuracy: 99.937500 %; loss: 0.000665; time: 5s
+accuracy: 99.929688 %; loss: 0.000192; time: 5s
+accuracy: 99.968750 %; loss: 0.000841; time: 5s
+****************** EPOCH = 279 ******************
+accuracy: 100.000000 %; loss: 0.000248; time: 8s
+accuracy: 99.937500 %; loss: 0.000586; time: 5s
+accuracy: 99.929688 %; loss: 0.002789; time: 5s
+accuracy: 99.968750 %; loss: 0.002251; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.310000 %
+Validation time is: 3.390578s
+****************** EPOCH = 280 ******************
+accuracy: 99.958882 %; loss: 0.000167; time: 11s
+accuracy: 99.921875 %; loss: 0.000303; time: 5s
+accuracy: 99.921875 %; loss: 0.000184; time: 5s
+accuracy: 99.953125 %; loss: 0.004220; time: 5s
+****************** EPOCH = 281 ******************
+accuracy: 99.888393 %; loss: 0.000265; time: 8s
+accuracy: 99.937500 %; loss: 0.000597; time: 5s
+accuracy: 99.976562 %; loss: 0.009630; time: 5s
+accuracy: 99.953125 %; loss: 0.003322; time: 5s
+****************** EPOCH = 282 ******************
+accuracy: 99.978885 %; loss: 0.000473; time: 8s
+accuracy: 99.906250 %; loss: 0.000746; time: 5s
+accuracy: 99.945312 %; loss: 0.000222; time: 5s
+accuracy: 99.937500 %; loss: 0.002647; time: 5s
+****************** EPOCH = 283 ******************
+accuracy: 99.966033 %; loss: 0.000295; time: 8s
+accuracy: 99.953125 %; loss: 0.001999; time: 5s
+accuracy: 99.937500 %; loss: 0.011770; time: 5s
+accuracy: 99.960938 %; loss: 0.002256; time: 5s
+****************** EPOCH = 284 ******************
+accuracy: 99.971591 %; loss: 0.001397; time: 8s
+accuracy: 99.953125 %; loss: 0.000779; time: 5s
+accuracy: 99.960938 %; loss: 0.001185; time: 5s
+accuracy: 99.953125 %; loss: 0.001560; time: 5s
+****************** EPOCH = 285 ******************
+accuracy: 99.951172 %; loss: 0.001388; time: 8s
+accuracy: 99.992188 %; loss: 0.000925; time: 5s
+accuracy: 99.953125 %; loss: 0.001481; time: 5s
+accuracy: 99.921875 %; loss: 0.000057; time: 5s
+****************** EPOCH = 286 ******************
+accuracy: 99.978596 %; loss: 0.007864; time: 8s
+accuracy: 99.960938 %; loss: 0.000201; time: 5s
+accuracy: 99.976562 %; loss: 0.003168; time: 5s
+accuracy: 99.937500 %; loss: 0.000920; time: 5s
+****************** EPOCH = 287 ******************
+accuracy: 99.914253 %; loss: 0.000914; time: 8s
+accuracy: 99.929688 %; loss: 0.000325; time: 5s
+accuracy: 99.929688 %; loss: 0.000835; time: 5s
+accuracy: 99.968750 %; loss: 0.000647; time: 5s
+****************** EPOCH = 288 ******************
+accuracy: 99.939904 %; loss: 0.002260; time: 8s
+accuracy: 99.976562 %; loss: 0.003187; time: 5s
+accuracy: 99.984375 %; loss: 0.000289; time: 5s
+accuracy: 99.913739 %; loss: 0.001900; time: 5s
+****************** EPOCH = 289 ******************
+accuracy: 99.929688 %; loss: 0.000447; time: 8s
+accuracy: 99.984375 %; loss: 0.001440; time: 5s
+accuracy: 99.945312 %; loss: 0.000794; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.250000 %
+Validation time is: 3.361567s
+****************** EPOCH = 290 ******************
+accuracy: 99.913194 %; loss: 0.000990; time: 11s
+accuracy: 99.929688 %; loss: 0.000161; time: 5s
+accuracy: 99.906250 %; loss: 0.000170; time: 5s
+accuracy: 99.945312 %; loss: 0.001039; time: 5s
+****************** EPOCH = 291 ******************
+accuracy: 99.956597 %; loss: 0.000763; time: 8s
+accuracy: 99.960938 %; loss: 0.000888; time: 5s
+accuracy: 99.960938 %; loss: 0.002759; time: 5s
+accuracy: 99.937500 %; loss: 0.000588; time: 5s
+****************** EPOCH = 292 ******************
+accuracy: 99.913194 %; loss: 0.000734; time: 8s
+accuracy: 99.937500 %; loss: 0.000528; time: 5s
+accuracy: 99.945312 %; loss: 0.003882; time: 5s
+accuracy: 99.945312 %; loss: 0.010353; time: 5s
+****************** EPOCH = 293 ******************
+accuracy: 99.913194 %; loss: 0.000391; time: 8s
+accuracy: 99.968750 %; loss: 0.005268; time: 5s
+accuracy: 99.992188 %; loss: 0.001025; time: 5s
+accuracy: 99.945312 %; loss: 0.002846; time: 5s
+****************** EPOCH = 294 ******************
+accuracy: 99.982639 %; loss: 0.001010; time: 8s
+accuracy: 99.953125 %; loss: 0.000648; time: 5s
+accuracy: 99.937500 %; loss: 0.000692; time: 5s
+accuracy: 99.945312 %; loss: 0.000345; time: 5s
+****************** EPOCH = 295 ******************
+accuracy: 99.971065 %; loss: 0.002752; time: 8s
+accuracy: 99.937500 %; loss: 0.000750; time: 5s
+accuracy: 99.937500 %; loss: 0.000480; time: 5s
+accuracy: 99.929688 %; loss: 0.014882; time: 5s
+****************** EPOCH = 296 ******************
+accuracy: 99.975198 %; loss: 0.001608; time: 8s
+accuracy: 99.937500 %; loss: 0.004324; time: 5s
+accuracy: 99.898438 %; loss: 0.002610; time: 5s
+accuracy: 99.953125 %; loss: 0.001879; time: 5s
+****************** EPOCH = 297 ******************
+accuracy: 100.000000 %; loss: 0.003162; time: 8s
+accuracy: 99.953125 %; loss: 0.001297; time: 5s
+accuracy: 99.921875 %; loss: 0.000303; time: 5s
+accuracy: 99.968750 %; loss: 0.001585; time: 5s
+****************** EPOCH = 298 ******************
+accuracy: 99.951775 %; loss: 0.000547; time: 8s
+accuracy: 99.929688 %; loss: 0.000158; time: 5s
+accuracy: 99.976562 %; loss: 0.000535; time: 5s
+accuracy: 99.906250 %; loss: 0.001871; time: 5s
+****************** EPOCH = 299 ******************
+accuracy: 99.956597 %; loss: 0.002268; time: 8s
+accuracy: 99.960938 %; loss: 0.008947; time: 5s
+accuracy: 99.937500 %; loss: 0.000587; time: 5s
+accuracy: 99.921875 %; loss: 0.001748; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.340000 %
+Validation time is: 3.327536s
+****************** EPOCH = 300 ******************
+accuracy: 99.976326 %; loss: 0.000629; time: 11s
+accuracy: 99.976562 %; loss: 0.004649; time: 5s
+accuracy: 99.914062 %; loss: 0.000128; time: 5s
+****************** EPOCH = 301 ******************
+accuracy: 99.902344 %; loss: 0.000709; time: 8s
+accuracy: 99.960938 %; loss: 0.000238; time: 5s
+accuracy: 99.937500 %; loss: 0.000116; time: 5s
+accuracy: 99.921875 %; loss: 0.001208; time: 5s
+****************** EPOCH = 302 ******************
+accuracy: 99.954044 %; loss: 0.000307; time: 8s
+accuracy: 99.968750 %; loss: 0.008422; time: 5s
+accuracy: 99.914062 %; loss: 0.001020; time: 5s
+accuracy: 99.914062 %; loss: 0.000667; time: 5s
+****************** EPOCH = 303 ******************
+accuracy: 99.909856 %; loss: 0.001706; time: 8s
+accuracy: 99.953125 %; loss: 0.001015; time: 5s
+accuracy: 99.945312 %; loss: 0.000544; time: 5s
+accuracy: 99.945312 %; loss: 0.000167; time: 5s
+****************** EPOCH = 304 ******************
+accuracy: 99.955357 %; loss: 0.000428; time: 8s
+accuracy: 99.929688 %; loss: 0.002492; time: 5s
+accuracy: 99.945312 %; loss: 0.002110; time: 5s
+accuracy: 99.960938 %; loss: 0.000812; time: 5s
+****************** EPOCH = 305 ******************
+accuracy: 99.964489 %; loss: 0.000269; time: 8s
+accuracy: 99.945312 %; loss: 0.000421; time: 5s
+accuracy: 99.945312 %; loss: 0.000564; time: 5s
+accuracy: 99.960938 %; loss: 0.000389; time: 5s
+****************** EPOCH = 306 ******************
+accuracy: 99.926297 %; loss: 0.001248; time: 8s
+accuracy: 99.984375 %; loss: 0.001965; time: 5s
+accuracy: 99.898438 %; loss: 0.001126; time: 5s
+accuracy: 99.968750 %; loss: 0.000926; time: 5s
+****************** EPOCH = 307 ******************
+accuracy: 99.911794 %; loss: 0.002594; time: 8s
+accuracy: 99.914062 %; loss: 0.002473; time: 5s
+accuracy: 99.960938 %; loss: 0.000554; time: 5s
+accuracy: 99.968750 %; loss: 0.006519; time: 5s
+****************** EPOCH = 308 ******************
+accuracy: 99.922975 %; loss: 0.001972; time: 8s
+accuracy: 99.945312 %; loss: 0.000815; time: 5s
+accuracy: 99.976562 %; loss: 0.000460; time: 5s
+accuracy: 99.976562 %; loss: 0.005460; time: 5s
+****************** EPOCH = 309 ******************
+accuracy: 99.931641 %; loss: 0.001152; time: 8s
+accuracy: 99.921875 %; loss: 0.000449; time: 5s
+accuracy: 99.953125 %; loss: 0.000297; time: 5s
+accuracy: 99.960938 %; loss: 0.000366; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.310000 %
+Validation time is: 3.499121s
+****************** EPOCH = 310 ******************
+accuracy: 99.929775 %; loss: 0.000755; time: 12s
+accuracy: 99.953125 %; loss: 0.000280; time: 5s
+accuracy: 99.929688 %; loss: 0.000585; time: 5s
+accuracy: 99.945312 %; loss: 0.001588; time: 5s
+****************** EPOCH = 311 ******************
+accuracy: 99.944196 %; loss: 0.003875; time: 9s
+accuracy: 99.953125 %; loss: 0.000364; time: 5s
+accuracy: 99.976562 %; loss: 0.000353; time: 5s
+****************** EPOCH = 312 ******************
+accuracy: 100.000000 %; loss: 0.000401; time: 8s
+accuracy: 99.953125 %; loss: 0.000302; time: 5s
+accuracy: 99.976562 %; loss: 0.002531; time: 5s
+accuracy: 99.929688 %; loss: 0.000870; time: 5s
+****************** EPOCH = 313 ******************
+accuracy: 99.755859 %; loss: 0.010449; time: 8s
+accuracy: 99.937500 %; loss: 0.004189; time: 5s
+accuracy: 99.976562 %; loss: 0.000541; time: 5s
+accuracy: 99.968750 %; loss: 0.000452; time: 5s
+****************** EPOCH = 314 ******************
+accuracy: 100.000000 %; loss: 0.004863; time: 8s
+accuracy: 99.968750 %; loss: 0.003179; time: 5s
+accuracy: 99.976562 %; loss: 0.000336; time: 5s
+accuracy: 99.953125 %; loss: 0.002259; time: 5s
+****************** EPOCH = 315 ******************
+accuracy: 99.931066 %; loss: 0.001134; time: 8s
+accuracy: 99.976562 %; loss: 0.002361; time: 5s
+accuracy: 99.984375 %; loss: 0.000957; time: 5s
+accuracy: 99.937500 %; loss: 0.003115; time: 5s
+****************** EPOCH = 316 ******************
+accuracy: 99.909157 %; loss: 0.000244; time: 8s
+accuracy: 99.976562 %; loss: 0.001315; time: 5s
+accuracy: 99.945312 %; loss: 0.003542; time: 5s
+accuracy: 99.953125 %; loss: 0.000292; time: 5s
+****************** EPOCH = 317 ******************
+accuracy: 99.984976 %; loss: 0.001157; time: 8s
+accuracy: 99.945312 %; loss: 0.000384; time: 5s
+accuracy: 99.945312 %; loss: 0.000267; time: 5s
+accuracy: 99.945312 %; loss: 0.000281; time: 5s
+****************** EPOCH = 318 ******************
+accuracy: 99.948770 %; loss: 0.000671; time: 9s
+accuracy: 99.937500 %; loss: 0.000286; time: 5s
+accuracy: 99.960938 %; loss: 0.000986; time: 5s
+accuracy: 99.914062 %; loss: 0.000243; time: 5s
+****************** EPOCH = 319 ******************
+accuracy: 99.988839 %; loss: 0.001594; time: 8s
+accuracy: 99.937500 %; loss: 0.000421; time: 5s
+accuracy: 99.890625 %; loss: 0.003235; time: 5s
+accuracy: 99.945312 %; loss: 0.000416; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.330000 %
+Validation time is: 3.460723s
+****************** EPOCH = 320 ******************
+accuracy: 99.940665 %; loss: 0.000767; time: 11s
+accuracy: 99.976562 %; loss: 0.001428; time: 5s
+accuracy: 99.960938 %; loss: 0.000776; time: 5s
+accuracy: 99.937500 %; loss: 0.011698; time: 5s
+****************** EPOCH = 321 ******************
+accuracy: 99.946733 %; loss: 0.000224; time: 8s
+accuracy: 99.953125 %; loss: 0.015923; time: 5s
+accuracy: 99.960938 %; loss: 0.000950; time: 5s
+accuracy: 99.914062 %; loss: 0.000346; time: 5s
+****************** EPOCH = 322 ******************
+accuracy: 99.943621 %; loss: 0.000315; time: 8s
+accuracy: 99.968750 %; loss: 0.000175; time: 5s
+accuracy: 99.914062 %; loss: 0.006588; time: 5s
+****************** EPOCH = 323 ******************
+accuracy: 99.869792 %; loss: 0.001035; time: 8s
+accuracy: 99.953125 %; loss: 0.001374; time: 5s
+accuracy: 99.953125 %; loss: 0.000231; time: 5s
+accuracy: 99.937500 %; loss: 0.006083; time: 5s
+****************** EPOCH = 324 ******************
+accuracy: 100.000000 %; loss: 0.001278; time: 8s
+accuracy: 99.968750 %; loss: 0.000875; time: 5s
+accuracy: 99.945312 %; loss: 0.000397; time: 5s
+accuracy: 99.968750 %; loss: 0.000123; time: 5s
+****************** EPOCH = 325 ******************
+accuracy: 99.902344 %; loss: 0.000349; time: 8s
+accuracy: 99.960938 %; loss: 0.001782; time: 5s
+accuracy: 99.953125 %; loss: 0.000764; time: 5s
+accuracy: 99.968750 %; loss: 0.002672; time: 5s
+****************** EPOCH = 326 ******************
+accuracy: 99.881629 %; loss: 0.017353; time: 8s
+accuracy: 99.937500 %; loss: 0.001221; time: 5s
+accuracy: 99.945312 %; loss: 0.000171; time: 5s
+accuracy: 99.960938 %; loss: 0.002332; time: 5s
+****************** EPOCH = 327 ******************
+accuracy: 99.906994 %; loss: 0.002290; time: 8s
+accuracy: 99.914062 %; loss: 0.003170; time: 5s
+accuracy: 99.945312 %; loss: 0.001080; time: 5s
+accuracy: 99.945312 %; loss: 0.005119; time: 5s
+****************** EPOCH = 328 ******************
+accuracy: 99.938725 %; loss: 0.001170; time: 8s
+accuracy: 99.984375 %; loss: 0.000700; time: 5s
+accuracy: 99.968750 %; loss: 0.000433; time: 5s
+accuracy: 99.976562 %; loss: 0.013063; time: 5s
+****************** EPOCH = 329 ******************
+accuracy: 99.960938 %; loss: 0.001677; time: 8s
+accuracy: 99.898438 %; loss: 0.000311; time: 5s
+accuracy: 99.960938 %; loss: 0.000520; time: 5s
+accuracy: 99.960938 %; loss: 0.002963; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.280000 %
+Validation time is: 3.342813s
+****************** EPOCH = 330 ******************
+accuracy: 99.977355 %; loss: 0.000135; time: 11s
+accuracy: 99.976562 %; loss: 0.001385; time: 5s
+accuracy: 99.984375 %; loss: 0.001420; time: 5s
+accuracy: 99.960938 %; loss: 0.004371; time: 5s
+****************** EPOCH = 331 ******************
+accuracy: 99.919872 %; loss: 0.000768; time: 8s
+accuracy: 99.976562 %; loss: 0.000699; time: 5s
+accuracy: 99.937500 %; loss: 0.002582; time: 5s
+accuracy: 99.945312 %; loss: 0.000783; time: 5s
+****************** EPOCH = 332 ******************
+accuracy: 99.973060 %; loss: 0.004199; time: 8s
+accuracy: 99.921875 %; loss: 0.000432; time: 5s
+accuracy: 99.984375 %; loss: 0.001273; time: 5s
+accuracy: 99.984375 %; loss: 0.000758; time: 5s
+****************** EPOCH = 333 ******************
+accuracy: 99.959310 %; loss: 0.000835; time: 8s
+accuracy: 99.968750 %; loss: 0.000363; time: 5s
+accuracy: 99.945312 %; loss: 0.000377; time: 5s
+****************** EPOCH = 334 ******************
+accuracy: 100.000000 %; loss: 0.001191; time: 8s
+accuracy: 99.921875 %; loss: 0.001328; time: 5s
+accuracy: 99.937500 %; loss: 0.011571; time: 5s
+accuracy: 99.921875 %; loss: 0.017263; time: 5s
+****************** EPOCH = 335 ******************
+accuracy: 99.832589 %; loss: 0.001193; time: 8s
+accuracy: 99.960938 %; loss: 0.000992; time: 5s
+accuracy: 99.937500 %; loss: 0.020754; time: 5s
+accuracy: 99.945312 %; loss: 0.002189; time: 5s
+****************** EPOCH = 336 ******************
+accuracy: 99.966033 %; loss: 0.001319; time: 8s
+accuracy: 99.937500 %; loss: 0.000820; time: 5s
+accuracy: 99.945312 %; loss: 0.001161; time: 5s
+accuracy: 99.968750 %; loss: 0.000999; time: 5s
+****************** EPOCH = 337 ******************
+accuracy: 99.853516 %; loss: 0.000742; time: 8s
+accuracy: 99.945312 %; loss: 0.004047; time: 5s
+accuracy: 99.937500 %; loss: 0.002136; time: 5s
+accuracy: 99.960938 %; loss: 0.007170; time: 5s
+****************** EPOCH = 338 ******************
+accuracy: 99.961890 %; loss: 0.000830; time: 8s
+accuracy: 99.976562 %; loss: 0.012644; time: 5s
+accuracy: 99.976562 %; loss: 0.002426; time: 5s
+accuracy: 99.937500 %; loss: 0.000386; time: 5s
+****************** EPOCH = 339 ******************
+accuracy: 99.921875 %; loss: 0.004921; time: 8s
+accuracy: 99.960938 %; loss: 0.013129; time: 5s
+accuracy: 99.945312 %; loss: 0.000859; time: 5s
+accuracy: 99.921875 %; loss: 0.000867; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.280000 %
+Validation time is: 3.565029s
+****************** EPOCH = 340 ******************
+accuracy: 99.960275 %; loss: 0.000725; time: 12s
+accuracy: 99.929688 %; loss: 0.000165; time: 5s
+accuracy: 99.953125 %; loss: 0.000573; time: 5s
+accuracy: 99.984375 %; loss: 0.000878; time: 5s
+****************** EPOCH = 341 ******************
+accuracy: 99.965533 %; loss: 0.000109; time: 9s
+accuracy: 99.968750 %; loss: 0.000754; time: 5s
+accuracy: 99.921875 %; loss: 0.000673; time: 5s
+accuracy: 99.914062 %; loss: 0.001693; time: 5s
+****************** EPOCH = 342 ******************
+accuracy: 99.939123 %; loss: 0.001043; time: 8s
+accuracy: 99.921875 %; loss: 0.003116; time: 5s
+accuracy: 99.937500 %; loss: 0.001941; time: 5s
+accuracy: 99.960938 %; loss: 0.000559; time: 5s
+****************** EPOCH = 343 ******************
+accuracy: 99.963663 %; loss: 0.007712; time: 8s
+accuracy: 99.929688 %; loss: 0.000344; time: 5s
+accuracy: 99.945312 %; loss: 0.000195; time: 5s
+accuracy: 99.960938 %; loss: 0.000861; time: 5s
+****************** EPOCH = 344 ******************
+accuracy: 99.950658 %; loss: 0.002446; time: 8s
+accuracy: 99.960938 %; loss: 0.000646; time: 5s
+accuracy: 99.960938 %; loss: 0.000539; time: 5s
+****************** EPOCH = 345 ******************
+accuracy: 99.804688 %; loss: 0.000513; time: 8s
+accuracy: 99.929688 %; loss: 0.000279; time: 5s
+accuracy: 99.921875 %; loss: 0.000397; time: 5s
+accuracy: 99.945312 %; loss: 0.000487; time: 5s
+****************** EPOCH = 346 ******************
+accuracy: 99.939904 %; loss: 0.000678; time: 8s
+accuracy: 99.945312 %; loss: 0.000540; time: 5s
+accuracy: 99.953125 %; loss: 0.000920; time: 5s
+accuracy: 99.960938 %; loss: 0.001784; time: 5s
+****************** EPOCH = 347 ******************
+accuracy: 100.000000 %; loss: 0.000615; time: 8s
+accuracy: 99.960938 %; loss: 0.000753; time: 5s
+accuracy: 99.945312 %; loss: 0.001220; time: 5s
+accuracy: 99.937500 %; loss: 0.000675; time: 5s
+****************** EPOCH = 348 ******************
+accuracy: 99.974798 %; loss: 0.001105; time: 8s
+accuracy: 99.937500 %; loss: 0.001352; time: 5s
+accuracy: 99.914062 %; loss: 0.008623; time: 5s
+accuracy: 99.976562 %; loss: 0.000525; time: 5s
+****************** EPOCH = 349 ******************
+accuracy: 99.882812 %; loss: 0.000455; time: 8s
+accuracy: 99.960938 %; loss: 0.000625; time: 5s
+accuracy: 99.953125 %; loss: 0.013424; time: 5s
+accuracy: 99.968750 %; loss: 0.005142; time: 5s
+*************** Validation ***************
+Accuracy of the network validation images: 91.260000 %
+Validation time is: 3.597718s
+Finished Training. It took 8961s in total
+model saved in trained_model/conv=FALCON,model=ResNet,data=cifar10,rank=1,alpha=1,init,opt=SGD,lr=0.01.pkl
+Files already downloaded and verified
+Accuracy: 91.260000 %; Inference time: 3.466631s
+  + Number of params: 2.63M
+  + Number of FLOPs: 46.33M
+Do once forward need 9.839 ms.
+
+Process finished with exit code 0
