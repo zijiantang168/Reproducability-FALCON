@@ -1,2 +1,4 @@
 python main.py -m VGG19 -conv FALCON -init -data cifar10 -train
 python main.py -m ResNet -conv FALCON -init -data cifar10 -train
+python main.py -m VGG19 -conv FALCON -init -data SVHN -train
+python main.py -m ResNet -conv FALCON -init -data SVHN -train
